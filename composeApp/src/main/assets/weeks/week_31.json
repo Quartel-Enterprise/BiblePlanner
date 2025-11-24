@@ -1,33 +1,12 @@
 {
   "week": 31,
   "days": [
-    {
-      "day": 1,
-      "reference": "Isaías 54 a 58"
-    },
-    {
-      "day": 2,
-      "reference": "Isaías 59 a 63"
-    },
-    {
-      "day": 3,
-      "reference": "Isaías 64 a 66"
-    },
-    {
-      "day": 4,
-      "reference": "2 Reis 20 a 21"
-    },
-    {
-      "day": 5,
-      "reference": "2 Crônicas 32 a 33"
-    },
-    {
-      "day": 6,
-      "reference": "Naum 1 a 3"
-    },
-    {
-      "day": 7,
-      "reference": "2 Reis 22 e 23; 2 Crônicas 34-35"
-    }
+    "Isaías 54 a 58",
+    "Isaías 59 a 63",
+    "Isaías 64 a 66",
+    "2 Reis 20 a 21",
+    "2 Crônicas 32 a 33",
+    "Naum 1 a 3",
+    "2 Reis 22 e 23; 2 Crônicas 34-35"
   ]
 }

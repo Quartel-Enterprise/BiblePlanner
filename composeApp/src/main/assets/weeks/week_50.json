@@ -1,33 +1,12 @@
 {
   "week": 50,
   "days": [
-    {
-      "day": 1,
-      "reference": "Romanos 11 a 13"
-    },
-    {
-      "day": 2,
-      "reference": "Romanos 14 a 16"
-    },
-    {
-      "day": 3,
-      "reference": "Atos 20: 4 - 38; Atos 21; Atos 22; Atos 23:1 - 35"
-    },
-    {
-      "day": 4,
-      "reference": "Atos 24 a 26"
-    },
-    {
-      "day": 5,
-      "reference": "Atos 27 e 28"
-    },
-    {
-      "day": 6,
-      "reference": "Colossenses 1-4; Filémon"
-    },
-    {
-      "day": 7,
-      "reference": "Efésios 1 a 6"
-    }
+    "Romanos 11 a 13",
+    "Romanos 14 a 16",
+    "Atos 20: 4 - 38; Atos 21; Atos 22; Atos 23:1 - 35",
+    "Atos 24 a 26",
+    "Atos 27 e 28",
+    "Colossenses 1-4; Filémon",
+    "Efésios 1 a 6"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 12,
   "days": [
-    {
-      "day": 1,
-      "reference": "Deuteronômio 24 - 27"
-    },
-    {
-      "day": 2,
-      "reference": "Deuteronômio 28 - 29"
-    },
-    {
-      "day": 3,
-      "reference": "Deuteronômio 30 - 31"
-    },
-    {
-      "day": 4,
-      "reference": "Deuteronômio 32 - 34"
-    },
-    {
-      "day": 5,
-      "reference": "Josué 1 - 4"
-    },
-    {
-      "day": 6,
-      "reference": "Josué 5 - 8"
-    },
-    {
-      "day": 7,
-      "reference": "Josué 9 - 11"
-    }
+    "Deuteronômio 24 - 27",
+    "Deuteronômio 28 - 29",
+    "Deuteronômio 30 - 31",
+    "Deuteronômio 32 - 34",
+    "Josué 1 - 4",
+    "Josué 5 - 8",
+    "Josué 9 - 11"
   ]
 }

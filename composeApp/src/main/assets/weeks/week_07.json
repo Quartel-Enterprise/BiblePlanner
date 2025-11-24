@@ -1,33 +1,12 @@
 {
   "week": 7,
   "days": [
-    {
-      "day": 1,
-      "reference": "Êxodo 39 - 40"
-    },
-    {
-      "day": 2,
-      "reference": "Levítico 1 - 4"
-    },
-    {
-      "day": 3,
-      "reference": "Levítico 5 - 7"
-    },
-    {
-      "day": 4,
-      "reference": "Levítico 8 - 10"
-    },
-    {
-      "day": 5,
-      "reference": "Levítico 11 - 13"
-    },
-    {
-      "day": 6,
-      "reference": "Levítico 14 - 15"
-    },
-    {
-      "day": 7,
-      "reference": "Levítico 16 - 18"
-    }
+    "Êxodo 39 - 40",
+    "Levítico 1 - 4",
+    "Levítico 5 - 7",
+    "Levítico 8 - 10",
+    "Levítico 11 - 13",
+    "Levítico 14 - 15",
+    "Levítico 16 - 18"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 10,
   "days": [
-    {
-      "day": 1,
-      "reference": "Números 23 - 25"
-    },
-    {
-      "day": 2,
-      "reference": "Números 26 - 27"
-    },
-    {
-      "day": 3,
-      "reference": "Números 28 - 30"
-    },
-    {
-      "day": 4,
-      "reference": "Números 31 - 32"
-    },
-    {
-      "day": 5,
-      "reference": "Números 33 - 34"
-    },
-    {
-      "day": 6,
-      "reference": "Números 35 - 36"
-    },
-    {
-      "day": 7,
-      "reference": "Deuteronômio 1 - 2"
-    }
+    "Números 23 - 25",
+    "Números 26 - 27",
+    "Números 28 - 30",
+    "Números 31 - 32",
+    "Números 33 - 34",
+    "Números 35 - 36",
+    "Deuteronômio 1 - 2"
   ]
 }

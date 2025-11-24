@@ -1,33 +1,12 @@
 {
   "week": 14,
   "days": [
-    {
-      "day": 1,
-      "reference": "Juízes 8 - 9"
-    },
-    {
-      "day": 2,
-      "reference": "Juízes 10 - 12"
-    },
-    {
-      "day": 3,
-      "reference": "Juízes 13 - 15"
-    },
-    {
-      "day": 4,
-      "reference": "Juízes 16 - 18"
-    },
-    {
-      "day": 5,
-      "reference": "Juízes 19 - 21"
-    },
-    {
-      "day": 6,
-      "reference": "Rute 1 - 4"
-    },
-    {
-      "day": 7,
-      "reference": "1 Samuel 1 - 3"
-    }
+    "Juízes 8 - 9",
+    "Juízes 10 - 12",
+    "Juízes 13 - 15",
+    "Juízes 16 - 18",
+    "Juízes 19 - 21",
+    "Rute 1 - 4",
+    "1 Samuel 1 - 3"
   ]
 }

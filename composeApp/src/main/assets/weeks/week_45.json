@@ -1,33 +1,12 @@
 {
   "week": 45,
   "days": [
-    {
-      "day": 1,
-      "reference": "Mateus 23; Lucas 20-21"
-    },
-    {
-      "day": 2,
-      "reference": "Marcos 13"
-    },
-    {
-      "day": 3,
-      "reference": "Mateus 24"
-    },
-    {
-      "day": 4,
-      "reference": "Mateus 25"
-    },
-    {
-      "day": 5,
-      "reference": "Mateus 26; Marcos 14"
-    },
-    {
-      "day": 6,
-      "reference": "Lucas 22; João 13"
-    },
-    {
-      "day": 7,
-      "reference": "João 14 a 17"
-    }
+    "Mateus 23; Lucas 20-21",
+    "Marcos 13",
+    "Mateus 24",
+    "Mateus 25",
+    "Mateus 26; Marcos 14",
+    "Lucas 22; João 13",
+    "João 14 a 17"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 3,
   "days": [
-    {
-      "day": 1,
-      "reference": "Jó 40 - 42"
-    },
-    {
-      "day": 2,
-      "reference": "Gênesis 12 - 15"
-    },
-    {
-      "day": 3,
-      "reference": "Gênesis 16 - 18"
-    },
-    {
-      "day": 4,
-      "reference": "Gênesis 19 - 21"
-    },
-    {
-      "day": 5,
-      "reference": "Gênesis 22 - 24"
-    },
-    {
-      "day": 6,
-      "reference": "Gênesis 25 - 26"
-    },
-    {
-      "day": 7,
-      "reference": "Gênesis 27 - 29"
-    }
+    "Jó 40 - 42",
+    "Gênesis 12 - 15",
+    "Gênesis 16 - 18",
+    "Gênesis 19 - 21",
+    "Gênesis 22 - 24",
+    "Gênesis 25 - 26",
+    "Gênesis 27 - 29"
   ]
 }

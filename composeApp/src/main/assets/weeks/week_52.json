@@ -1,33 +1,12 @@
 {
   "week": 52,
   "days": [
-    {
-      "day": 1,
-      "reference": "2 Timóteo 1 a 4"
-    },
-    {
-      "day": 2,
-      "reference": "2 Pedro 1-3; Judas"
-    },
-    {
-      "day": 3,
-      "reference": "1 João 1-5"
-    },
-    {
-      "day": 4,
-      "reference": "2 João; 3 João"
-    },
-    {
-      "day": 5,
-      "reference": "Apocalipse 1 a 5"
-    },
-    {
-      "day": 6,
-      "reference": "Apocalipse 6 a 11"
-    },
-    {
-      "day": 7,
-      "reference": "Apocalipse 12 a 22"
-    }
+    "2 Timóteo 1 a 4",
+    "2 Pedro 1-3; Judas",
+    "1 João 1-5",
+    "2 João; 3 João",
+    "Apocalipse 1 a 5",
+    "Apocalipse 6 a 11",
+    "Apocalipse 12 a 22"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 46,
   "days": [
-    {
-      "day": 1,
-      "reference": "Mateus 27; Marcos 15"
-    },
-    {
-      "day": 2,
-      "reference": "Lucas 23; João 18-19"
-    },
-    {
-      "day": 3,
-      "reference": "Mateus 28; Marcos 16"
-    },
-    {
-      "day": 4,
-      "reference": "Lucas 24; João 20-21"
-    },
-    {
-      "day": 5,
-      "reference": "Atos 1 a 3"
-    },
-    {
-      "day": 6,
-      "reference": "Atos 4 a 6"
-    },
-    {
-      "day": 7,
-      "reference": "Atos 7 e 8"
-    }
+    "Mateus 27; Marcos 15",
+    "Lucas 23; João 18-19",
+    "Mateus 28; Marcos 16",
+    "Lucas 24; João 20-21",
+    "Atos 1 a 3",
+    "Atos 4 a 6",
+    "Atos 7 e 8"
   ]
 }

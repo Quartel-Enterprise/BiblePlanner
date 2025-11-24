@@ -1,33 +1,12 @@
 {
   "week": 28,
   "days": [
-    {
-      "day": 1,
-      "reference": "Isaías 1 a 4"
-    },
-    {
-      "day": 2,
-      "reference": "Isaías 5 a 8"
-    },
-    {
-      "day": 3,
-      "reference": "Amós 1 a 5"
-    },
-    {
-      "day": 4,
-      "reference": "Amós 6 a 9"
-    },
-    {
-      "day": 5,
-      "reference": "2 Crônicas 27; Isaías 9-12"
-    },
-    {
-      "day": 6,
-      "reference": "Miquéias 1 a 7"
-    },
-    {
-      "day": 7,
-      "reference": "2 Crônicas 28 a 30; 2 Reis 16-17"
-    }
+    "Isaías 1 a 4",
+    "Isaías 5 a 8",
+    "Amós 1 a 5",
+    "Amós 6 a 9",
+    "2 Crônicas 27; Isaías 9-12",
+    "Miquéias 1 a 7",
+    "2 Crônicas 28 a 30; 2 Reis 16-17"
   ]
 }

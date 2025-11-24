@@ -1,33 +1,12 @@
 {
   "week": 48,
   "days": [
-    {
-      "day": 1,
-      "reference": "Atos 17; Atos 18: 1 - 18"
-    },
-    {
-      "day": 2,
-      "reference": "1 Tessalonicenses 1 - 5; 2 Tessalonicenses 1 - 3"
-    },
-    {
-      "day": 3,
-      "reference": "Atos 18: 19 - 28; Atos 19: 1 - 41"
-    },
-    {
-      "day": 4,
-      "reference": "1 Coríntios 1 a 4"
-    },
-    {
-      "day": 5,
-      "reference": "1 Coríntios 5 a 8"
-    },
-    {
-      "day": 6,
-      "reference": "1 Coríntios 9 a 11"
-    },
-    {
-      "day": 7,
-      "reference": "1 Coríntios 12 a 14"
-    }
+    "Atos 17; Atos 18: 1 - 18",
+    "1 Tessalonicenses 1 - 5; 2 Tessalonicenses 1 - 3",
+    "Atos 18: 19 - 28; Atos 19: 1 - 41",
+    "1 Coríntios 1 a 4",
+    "1 Coríntios 5 a 8",
+    "1 Coríntios 9 a 11",
+    "1 Coríntios 12 a 14"
   ]
 }

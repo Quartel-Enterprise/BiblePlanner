@@ -1,33 +1,12 @@
 {
   "week": 39,
   "days": [
-    {
-      "day": 1,
-      "reference": "Ester 6 a 10"
-    },
-    {
-      "day": 2,
-      "reference": "Esdras 7 a 10"
-    },
-    {
-      "day": 3,
-      "reference": "Neemias 1 a 5"
-    },
-    {
-      "day": 4,
-      "reference": "Neemias 6 e 7"
-    },
-    {
-      "day": 5,
-      "reference": "Neemias 8 a 10"
-    },
-    {
-      "day": 6,
-      "reference": "Neemias 11-13; Salmo 126"
-    },
-    {
-      "day": 7,
-      "reference": "Malaquias 1 a 4"
-    }
+    "Ester 6 a 10",
+    "Esdras 7 a 10",
+    "Neemias 1 a 5",
+    "Neemias 6 e 7",
+    "Neemias 8 a 10",
+    "Neemias 11-13; Salmo 126",
+    "Malaquias 1 a 4"
   ]
 }

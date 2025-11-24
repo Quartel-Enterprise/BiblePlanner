@@ -1,33 +1,12 @@
 {
   "week": 4,
   "days": [
-    {
-      "day": 1,
-      "reference": "Gênesis 30 - 31"
-    },
-    {
-      "day": 2,
-      "reference": "Gênesis 32 - 34"
-    },
-    {
-      "day": 3,
-      "reference": "Gênesis 35 - 37"
-    },
-    {
-      "day": 4,
-      "reference": "Gênesis 38 - 40"
-    },
-    {
-      "day": 5,
-      "reference": "Gênesis 41 - 42"
-    },
-    {
-      "day": 6,
-      "reference": "Gênesis 43 - 45"
-    },
-    {
-      "day": 7,
-      "reference": "Gênesis 46 - 47"
-    }
+    "Gênesis 30 - 31",
+    "Gênesis 32 - 34",
+    "Gênesis 35 - 37",
+    "Gênesis 38 - 40",
+    "Gênesis 41 - 42",
+    "Gênesis 43 - 45",
+    "Gênesis 46 - 47"
   ]
 }

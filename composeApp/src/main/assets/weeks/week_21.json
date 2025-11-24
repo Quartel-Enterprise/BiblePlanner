@@ -1,33 +1,12 @@
 {
   "week": 21,
   "days": [
-    {
-      "day": 1,
-      "reference": "2 Samuel 22-23; Salmos 57"
-    },
-    {
-      "day": 2,
-      "reference": "Salmos 95, 97 a 99"
-    },
-    {
-      "day": 3,
-      "reference": "2 Samuel 24; 1 Crônicas 21-22; Salmos 30"
-    },
-    {
-      "day": 4,
-      "reference": "Salmos 108 a 110"
-    },
-    {
-      "day": 5,
-      "reference": "1 Crônicas 23 a 25"
-    },
-    {
-      "day": 6,
-      "reference": "Salmos 131, 138-139, 143-145"
-    },
-    {
-      "day": 7,
-      "reference": "1 Crônicas 26 -29; Salmos 27"
-    }
+    "2 Samuel 22-23; Salmos 57",
+    "Salmos 95, 97 a 99",
+    "2 Samuel 24; 1 Crônicas 21-22; Salmos 30",
+    "Salmos 108 a 110",
+    "1 Crônicas 23 a 25",
+    "Salmos 131, 138-139, 143-145",
+    "1 Crônicas 26 -29; Salmos 27"
   ]
 }

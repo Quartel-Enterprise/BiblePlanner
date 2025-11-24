@@ -1,33 +1,12 @@
 {
   "week": 26,
   "days": [
-    {
-      "day": 1,
-      "reference": "1 Reis 15:1-24; 2 Crônicas 13-16"
-    },
-    {
-      "day": 2,
-      "reference": "1 Reis 15:25-34; 1 Reis 16; 2 Crônicas 17"
-    },
-    {
-      "day": 3,
-      "reference": "1 Reis 17-19"
-    },
-    {
-      "day": 4,
-      "reference": "1 Reis 20-21"
-    },
-    {
-      "day": 5,
-      "reference": "1 Reis 22; 2 Crônicas 18"
-    },
-    {
-      "day": 6,
-      "reference": "2 Crônicas 19 a 23"
-    },
-    {
-      "day": 7,
-      "reference": "Obadias; Salmos 82-83"
-    }
+    "1 Reis 15:1-24; 2 Crônicas 13-16",
+    "1 Reis 15:25-34; 1 Reis 16; 2 Crônicas 17",
+    "1 Reis 17-19",
+    "1 Reis 20-21",
+    "1 Reis 22; 2 Crônicas 18",
+    "2 Crônicas 19 a 23",
+    "Obadias; Salmos 82-83"
   ]
 }

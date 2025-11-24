@@ -1,33 +1,12 @@
 {
   "week": 34,
   "days": [
-    {
-      "day": 1,
-      "reference": "Habacuque 1 a 3"
-    },
-    {
-      "day": 2,
-      "reference": "Jeremias 41 a 45"
-    },
-    {
-      "day": 3,
-      "reference": "Jeremias 46 a 48"
-    },
-    {
-      "day": 4,
-      "reference": "Jeremias 49 a 50"
-    },
-    {
-      "day": 5,
-      "reference": "Jeremias 51 a 52"
-    },
-    {
-      "day": 6,
-      "reference": "Lamentações 1; Lamentações 2; Lamentações 3:1-36"
-    },
-    {
-      "day": 7,
-      "reference": "Lamentações 3:37-66; Lamentações 4; Lamentações 5:1-22"
-    }
+    "Habacuque 1 a 3",
+    "Jeremias 41 a 45",
+    "Jeremias 46 a 48",
+    "Jeremias 49 a 50",
+    "Jeremias 51 a 52",
+    "Lamentações 1; Lamentações 2; Lamentações 3:1-36",
+    "Lamentações 3:37-66; Lamentações 4; Lamentações 5:1-22"
   ]
 }

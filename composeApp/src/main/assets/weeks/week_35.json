@@ -1,33 +1,12 @@
 {
   "week": 35,
   "days": [
-    {
-      "day": 1,
-      "reference": "Ezequiel 1 a 4"
-    },
-    {
-      "day": 2,
-      "reference": "Ezequiel 5 a 8"
-    },
-    {
-      "day": 3,
-      "reference": "Ezequiel 9 a 12"
-    },
-    {
-      "day": 4,
-      "reference": "Ezequiel 13 a 15"
-    },
-    {
-      "day": 5,
-      "reference": "Ezequiel 16 a 17"
-    },
-    {
-      "day": 6,
-      "reference": "Ezequiel 18 a 19"
-    },
-    {
-      "day": 7,
-      "reference": "Ezequiel 20 a 21"
-    }
+    "Ezequiel 1 a 4",
+    "Ezequiel 5 a 8",
+    "Ezequiel 9 a 12",
+    "Ezequiel 13 a 15",
+    "Ezequiel 16 a 17",
+    "Ezequiel 18 a 19",
+    "Ezequiel 20 a 21"
   ]
 }

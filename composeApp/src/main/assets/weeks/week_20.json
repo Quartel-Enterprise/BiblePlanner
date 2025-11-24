@@ -1,33 +1,12 @@
 {
   "week": 20,
   "days": [
-    {
-      "day": 1,
-      "reference": "Salmos 32, 51, 86, 122"
-    },
-    {
-      "day": 2,
-      "reference": "2 Samuel 13 a 15"
-    },
-    {
-      "day": 3,
-      "reference": "Salmos 3 e 4, 12 e 13, 28, 55"
-    },
-    {
-      "day": 4,
-      "reference": "2 Samuel 13 a 15"
-    },
-    {
-      "day": 5,
-      "reference": "SSalmos 26, 40, 58, 61-62, 64"
-    },
-    {
-      "day": 6,
-      "reference": "2 Samuel 19 a 21"
-    },
-    {
-      "day": 7,
-      "reference": "Salmos 5, 38, 41-42"
-    }
+    "Salmos 32, 51, 86, 122",
+    "2 Samuel 13 a 15",
+    "Salmos 3 e 4, 12 e 13, 28, 55",
+    "2 Samuel 13 a 15",
+    "SSalmos 26, 40, 58, 61-62, 64",
+    "2 Samuel 19 a 21",
+    "Salmos 5, 38, 41-42"
   ]
 }

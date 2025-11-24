@@ -1,33 +1,12 @@
 {
   "week": 5,
   "days": [
-    {
-      "day": 1,
-      "reference": "Gênesis 48 - 50"
-    },
-    {
-      "day": 2,
-      "reference": "Êxodo 1 - 3"
-    },
-    {
-      "day": 3,
-      "reference": "Êxodo 4 - 6"
-    },
-    {
-      "day": 4,
-      "reference": "Êxodo 7 - 9"
-    },
-    {
-      "day": 5,
-      "reference": "Êxodo 10 - 12"
-    },
-    {
-      "day": 6,
-      "reference": "Êxodo 13 - 15"
-    },
-    {
-      "day": 7,
-      "reference": "Êxodo 16 - 18"
-    }
+    "Gênesis 48 - 50",
+    "Êxodo 1 - 3",
+    "Êxodo 4 - 6",
+    "Êxodo 7 - 9",
+    "Êxodo 10 - 12",
+    "Êxodo 13 - 15",
+    "Êxodo 16 - 18"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 51,
   "days": [
-    {
-      "day": 1,
-      "reference": "Filipenses 1 a 4"
-    },
-    {
-      "day": 2,
-      "reference": "1 Timóteo 1 a 6"
-    },
-    {
-      "day": 3,
-      "reference": "Tito 1 a 3"
-    },
-    {
-      "day": 4,
-      "reference": "1 Pedro 1 a 5"
-    },
-    {
-      "day": 5,
-      "reference": "Hebreus 1 a 6"
-    },
-    {
-      "day": 6,
-      "reference": "Hebreus 7 a 10"
-    },
-    {
-      "day": 7,
-      "reference": "Hebreus 11 a 13"
-    }
+    "Filipenses 1 a 4",
+    "1 Timóteo 1 a 6",
+    "Tito 1 a 3",
+    "1 Pedro 1 a 5",
+    "Hebreus 1 a 6",
+    "Hebreus 7 a 10",
+    "Hebreus 11 a 13"
   ]
 }

@@ -1,33 +1,12 @@
 {
   "week": 43,
   "days": [
-    {
-      "day": 1,
-      "reference": "Mateus 18"
-    },
-    {
-      "day": 2,
-      "reference": "João 7 a 8"
-    },
-    {
-      "day": 3,
-      "reference": "João 9: 1 - 41; João 10: 1 - 21"
-    },
-    {
-      "day": 4,
-      "reference": "Lucas 10 - 11; João 10: 22 - 42"
-    },
-    {
-      "day": 5,
-      "reference": "Lucas 12 e 13"
-    },
-    {
-      "day": 6,
-      "reference": "Lucas 14 e 15"
-    },
-    {
-      "day": 7,
-      "reference": "Lucas 16; Lucas 17:1-10"
-    }
+    "Mateus 18",
+    "João 7 a 8",
+    "João 9: 1 - 41; João 10: 1 - 21",
+    "Lucas 10 - 11; João 10: 22 - 42",
+    "Lucas 12 e 13",
+    "Lucas 14 e 15",
+    "Lucas 16; Lucas 17:1-10"
   ]
 }

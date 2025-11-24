@@ -1,33 +1,12 @@
 {
   "week": 32,
   "days": [
-    {
-      "day": 1,
-      "reference": "Sofonias 1 a 3"
-    },
-    {
-      "day": 2,
-      "reference": "Jeremias 1 a 3"
-    },
-    {
-      "day": 3,
-      "reference": "Jeremias 4 a 6"
-    },
-    {
-      "day": 4,
-      "reference": "Jeremias 7 a 9"
-    },
-    {
-      "day": 5,
-      "reference": "Jeremias 10 a 13"
-    },
-    {
-      "day": 6,
-      "reference": "Jeremias 14 a 17"
-    },
-    {
-      "day": 7,
-      "reference": "Jeremias 18 a 22"
-    }
+    "Sofonias 1 a 3",
+    "Jeremias 1 a 3",
+    "Jeremias 4 a 6",
+    "Jeremias 7 a 9",
+    "Jeremias 10 a 13",
+    "Jeremias 14 a 17",
+    "Jeremias 18 a 22"
   ]
 }

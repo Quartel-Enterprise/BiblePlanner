@@ -1,33 +1,12 @@
 {
   "week": 9,
   "days": [
-    {
-      "day": 1,
-      "reference": "Números 7"
-    },
-    {
-      "day": 2,
-      "reference": "Números 8 - 10"
-    },
-    {
-      "day": 3,
-      "reference": "Números 11 - 13"
-    },
-    {
-      "day": 4,
-      "reference": "Números 14 - 15"
-    },
-    {
-      "day": 5,
-      "reference": "Salmo 90"
-    },
-    {
-      "day": 6,
-      "reference": "Números 18 - 20"
-    },
-    {
-      "day": 7,
-      "reference": "Números 21 - 22"
-    }
+    "Números 7",
+    "Números 8 - 10",
+    "Números 11 - 13",
+    "Números 14 - 15",
+    "Salmo 90",
+    "Números 18 - 20",
+    "Números 21 - 22"
   ]
 }

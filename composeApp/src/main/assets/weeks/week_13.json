@@ -1,33 +1,12 @@
 {
   "week": 13,
   "days": [
-    {
-      "day": 1,
-      "reference": "Josué 12 - 15"
-    },
-    {
-      "day": 2,
-      "reference": "Josué 16 - 18"
-    },
-    {
-      "day": 3,
-      "reference": "Josué 19 - 21"
-    },
-    {
-      "day": 4,
-      "reference": "Josué 22 - 24"
-    },
-    {
-      "day": 5,
-      "reference": "Juízes 1 - 2"
-    },
-    {
-      "day": 6,
-      "reference": "Juízes 3 - 5"
-    },
-    {
-      "day": 7,
-      "reference": "Juízes 6 - 7"
-    }
+    "Josué 12 - 15",
+    "Josué 16 - 18",
+    "Josué 19 - 21",
+    "Josué 22 - 24",
+    "Juízes 1 - 2",
+    "Juízes 3 - 5",
+    "Juízes 6 - 7"
   ]
 }

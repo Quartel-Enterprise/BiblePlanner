@@ -1,33 +1,12 @@
 {
   "week": 27,
   "days": [
-    {
-      "day": 1,
-      "reference": "2 Reis 1 - 4"
-    },
-    {
-      "day": 2,
-      "reference": "2 Reis 5 - 8"
-    },
-    {
-      "day": 3,
-      "reference": "2 Reis 9 - 11"
-    },
-    {
-      "day": 4,
-      "reference": "2 Reis 12-13; 2 Crônicas 24"
-    },
-    {
-      "day": 5,
-      "reference": "2 Reis 14; 2 Crônicas 25"
-    },
-    {
-      "day": 6,
-      "reference": "Jonas 1 a 4"
-    },
-    {
-      "day": 7,
-      "reference": "2 Reis 15; 2 Crônicas 26"
-    }
+    "2 Reis 1 - 4",
+    "2 Reis 5 - 8",
+    "2 Reis 9 - 11",
+    "2 Reis 12-13; 2 Crônicas 24",
+    "2 Reis 14; 2 Crônicas 25",
+    "Jonas 1 a 4",
+    "2 Reis 15; 2 Crônicas 26"
   ]
 }

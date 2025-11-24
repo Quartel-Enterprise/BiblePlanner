@@ -1,33 +1,12 @@
 {
   "week": 29,
   "days": [
-    {
-      "day": 1,
-      "reference": "Isaías 13 a 17"
-    },
-    {
-      "day": 2,
-      "reference": "Isaías 18 a 22"
-    },
-    {
-      "day": 3,
-      "reference": "Isaías 23 a 27"
-    },
-    {
-      "day": 4,
-      "reference": "2 Reis 18:1-8; 2 Crônicas 29-31; Salmos 48"
-    },
-    {
-      "day": 5,
-      "reference": "Oseias 1 a 7"
-    },
-    {
-      "day": 6,
-      "reference": "Oseias 8 a 14"
-    },
-    {
-      "day": 7,
-      "reference": "Isaías 28 a 30"
-    }
+    "Isaías 13 a 17",
+    "Isaías 18 a 22",
+    "Isaías 23 a 27",
+    "2 Reis 18:1-8; 2 Crônicas 29-31; Salmos 48",
+    "Oseias 1 a 7",
+    "Oseias 8 a 14",
+    "Isaías 28 a 30"
   ]
 }
