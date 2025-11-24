@@ -1,0 +1,33 @@
+{
+  "week": 19,
+  "days": [
+    {
+      "day": 1,
+      "reference": "2 Samuel 7; 1 Crônicas 17"
+    },
+    {
+      "day": 2,
+      "reference": "Salmos 25,29,33,36,39"
+    },
+    {
+      "day": 3,
+      "reference": "2 Samuel 8 e 9; 1 Crônicas 18"
+    },
+    {
+      "day": 4,
+      "reference": "Salmos 50,53,60,75"
+    },
+    {
+      "day": 5,
+      "reference": "2 Samuel 10;1 Crônicas 19; Salmo 20"
+    },
+    {
+      "day": 6,
+      "reference": "Salmos 65 a 67; Salmos 69 a 70"
+    },
+    {
+      "day": 7,
+      "reference": "2 Samuel 11 e 12; 1 Crônicas 20"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "week": 27,
+  "days": [
+    {
+      "day": 1,
+      "reference": "2 R eis 1 a 4"
+    },
+    {
+      "day": 2,
+      "reference": "2 R eis 5 a 8"
+    },
+    {
+      "day": 3,
+      "reference": "2 R eis 9 a 11"
+    },
+    {
+      "day": 4,
+      "reference": "2 R eis 12 -13"
+    },
+    {
+      "day": 5,
+      "reference": "2 Crônicas 24"
+    },
+    {
+      "day": 6,
+      "reference": "Jonas 1 a 4"
+    },
+    {
+      "day": 7,
+      "reference": "2 R eis 14"
+    }
+  ]
+}

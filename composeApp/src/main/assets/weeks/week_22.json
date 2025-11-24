@@ -1,0 +1,33 @@
+{
+  "week": 22,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Salmos 111 a 118"
+    },
+    {
+      "day": 2,
+      "reference": "1 R eis 1 -2"
+    },
+    {
+      "day": 3,
+      "reference": "Salmos 37,71,94"
+    },
+    {
+      "day": 4,
+      "reference": "Salmos 119:1 -88"
+    },
+    {
+      "day": 5,
+      "reference": "Salmos 119:89 -176"
+    },
+    {
+      "day": 6,
+      "reference": "Salomão 1 a 8"
+    },
+    {
+      "day": 7,
+      "reference": "Provérbios 1 a 3"
+    }
+  ]
+}

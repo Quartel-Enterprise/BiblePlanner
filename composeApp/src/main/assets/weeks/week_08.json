@@ -1,0 +1,33 @@
+{
+  "week": 8,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Levítico 19 a 21"
+    },
+    {
+      "day": 2,
+      "reference": "Levítico 22 a 23"
+    },
+    {
+      "day": 3,
+      "reference": "Levítico 24, 25 e 26"
+    },
+    {
+      "day": 4,
+      "reference": "Levítico 27"
+    },
+    {
+      "day": 5,
+      "reference": "Números 1 e 2"
+    },
+    {
+      "day": 6,
+      "reference": "Números 3 e 4"
+    },
+    {
+      "day": 7,
+      "reference": "Números 5 e 6"
+    }
+  ]
+}

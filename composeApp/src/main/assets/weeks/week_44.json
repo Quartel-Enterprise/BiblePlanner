@@ -1,0 +1,33 @@
+{
+  "week": 44,
+  "days": [
+    {
+      "day": 1,
+      "reference": "João 11"
+    },
+    {
+      "day": 2,
+      "reference": "Lucas 17:11-37"
+    },
+    {
+      "day": 3,
+      "reference": "Lucas 18:1-14"
+    },
+    {
+      "day": 4,
+      "reference": "Mateus 19"
+    },
+    {
+      "day": 5,
+      "reference": "Marcos10"
+    },
+    {
+      "day": 6,
+      "reference": "Mateus 20 a 21"
+    },
+    {
+      "day": 7,
+      "reference": "Lucas 17:11-37"
+    }
+  ]
+}

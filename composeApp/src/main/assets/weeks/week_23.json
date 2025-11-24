@@ -1,0 +1,33 @@
+{
+  "week": 23,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Provérbios 4 a 6"
+    },
+    {
+      "day": 2,
+      "reference": "Provérbios 7 a 9"
+    },
+    {
+      "day": 3,
+      "reference": "Provérbios 10 a 12"
+    },
+    {
+      "day": 4,
+      "reference": "Provérbios 13 a 15"
+    },
+    {
+      "day": 5,
+      "reference": "Provérbios 16 a 18"
+    },
+    {
+      "day": 6,
+      "reference": "Provérbios 19 a 21"
+    },
+    {
+      "day": 7,
+      "reference": "Provérbios 22 a 24"
+    }
+  ]
+}

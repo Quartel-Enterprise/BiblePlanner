@@ -1,0 +1,33 @@
+{
+  "week": 42,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Mateus 8:14 -34"
+    },
+    {
+      "day": 2,
+      "reference": "Marcos4 -5"
+    },
+    {
+      "day": 3,
+      "reference": "Mateus 9 a 10"
+    },
+    {
+      "day": 4,
+      "reference": "Mateus 14; Marcos 6"
+    },
+    {
+      "day": 5,
+      "reference": "Lucas 9:18 -17"
+    },
+    {
+      "day": 6,
+      "reference": "João 6"
+    },
+    {
+      "day": 7,
+      "reference": "Mateus 15"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "week": 18,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Salmos 102 a 104"
+    },
+    {
+      "day": 2,
+      "reference": "2 Samuel 5:1-10 e 1 Crônicas 11-12"
+    },
+    {
+      "day": 3,
+      "reference": "Salmos 133"
+    },
+    {
+      "day": 4,
+      "reference": "Salmos 106 e 107"
+    },
+    {
+      "day": 5,
+      "reference": "2 Samuel 5:11-25; 2 Samuel 6; 1 Crônicas 13-16"
+    },
+    {
+      "day": 6,
+      "reference": "Salmos 1-2,15, 22-24,47,68"
+    },
+    {
+      "day": 7,
+      "reference": "Salmos 89,96,100,101,105,132"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "week": 24,
+  "days": [
+    {
+      "day": 1,
+      "reference": "1 R eis 5-6"
+    },
+    {
+      "day": 2,
+      "reference": "2 Crônicas 2 -3"
+    },
+    {
+      "day": 3,
+      "reference": "1 R eis 7, 2 Crônicas 4"
+    },
+    {
+      "day": 4,
+      "reference": "1 R eis 8, 2 Crônicas 5"
+    },
+    {
+      "day": 5,
+      "reference": "2 Crônicas 6 -7"
+    },
+    {
+      "day": 6,
+      "reference": "Salmos 136"
+    },
+    {
+      "day": 7,
+      "reference": "Salmos 134, 146 -150"
+    }
+  ]
+}

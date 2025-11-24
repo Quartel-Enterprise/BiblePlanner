@@ -1,0 +1,33 @@
+{
+  "week": 37,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Ezequiel 42 a 43"
+    },
+    {
+      "day": 2,
+      "reference": "Ezequiel 44 a 45"
+    },
+    {
+      "day": 3,
+      "reference": "Ezequiel 46 a 48"
+    },
+    {
+      "day": 4,
+      "reference": "Joel 1 a 3"
+    },
+    {
+      "day": 5,
+      "reference": "Daniel 1 a 3"
+    },
+    {
+      "day": 6,
+      "reference": "Daniel 4 a 6; Daniel 7 a 9"
+    },
+    {
+      "day": 7,
+      "reference": ""
+    }
+  ]
+}

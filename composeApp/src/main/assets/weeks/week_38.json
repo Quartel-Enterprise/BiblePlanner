@@ -1,0 +1,33 @@
+{
+  "week": 38,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Daniel 10 a 12"
+    },
+    {
+      "day": 2,
+      "reference": "Esdr as 1 a 3"
+    },
+    {
+      "day": 3,
+      "reference": "Esdr as 4 -6"
+    },
+    {
+      "day": 4,
+      "reference": "Salmos 137"
+    },
+    {
+      "day": 5,
+      "reference": "Ageu 1 a 2"
+    },
+    {
+      "day": 6,
+      "reference": "Zacarias 1 a 7"
+    },
+    {
+      "day": 7,
+      "reference": "Zacarias 8 a 14"
+    }
+  ]
+}

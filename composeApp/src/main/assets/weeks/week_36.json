@@ -1,0 +1,33 @@
+{
+  "week": 36,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Ezequiel 22 a 23"
+    },
+    {
+      "day": 2,
+      "reference": "Ezequiel 24 a 27"
+    },
+    {
+      "day": 3,
+      "reference": "Ezequiel 28 a 31"
+    },
+    {
+      "day": 4,
+      "reference": "Ezequiel 32 a 34"
+    },
+    {
+      "day": 5,
+      "reference": "Ezequiel 35 a 37"
+    },
+    {
+      "day": 6,
+      "reference": "Ezequiel 38 a 39"
+    },
+    {
+      "day": 7,
+      "reference": "Ezequiel 40 a 41"
+    }
+  ]
+}

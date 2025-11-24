@@ -1,0 +1,33 @@
+{
+  "week": 47,
+  "days": [
+    {
+      "day": 1,
+      "reference": "Atos 9 a 10"
+    },
+    {
+      "day": 2,
+      "reference": "Atos 11 a 12"
+    },
+    {
+      "day": 3,
+      "reference": "Atos 13 a 14"
+    },
+    {
+      "day": 4,
+      "reference": "Tiago 1 a 5"
+    },
+    {
+      "day": 5,
+      "reference": "Atos 15 a 16"
+    },
+    {
+      "day": 6,
+      "reference": "Gálatas 1 a 3"
+    },
+    {
+      "day": 7,
+      "reference": "Gálatas 4 a 6"
+    }
+  ]
+}
