@@ -15,19 +15,19 @@
     },
     {
       "day": 4,
-      "reference": "2 Reis 18:1- 8; 2 Crônicas"
+      "reference": "2 Reis 18:1-8; 2 Crônicas 29-31; Salmos 48"
     },
     {
       "day": 5,
-      "reference": "29-31; Salmos 48"
-    },
-    {
-      "day": 6,
       "reference": "Oseias 1 a 7"
     },
     {
-      "day": 7,
+      "day": 6,
       "reference": "Oseias 8 a 14"
+    },
+    {
+      "day": 7,
+      "reference": "Isaías 28 a 30"
     }
   ]
 }

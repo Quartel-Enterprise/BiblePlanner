@@ -3,15 +3,15 @@
   "days": [
     {
       "day": 1,
-      "reference": "Levítico 19 a 21"
+      "reference": "Levítico 19 - 21"
     },
     {
       "day": 2,
-      "reference": "Levítico 22 a 23"
+      "reference": "Levítico 22 - 23"
     },
     {
       "day": 3,
-      "reference": "Levítico 24, 25 e 26"
+      "reference": "Levítico 24 - 26"
     },
     {
       "day": 4,
@@ -19,15 +19,15 @@
     },
     {
       "day": 5,
-      "reference": "Números 1 e 2"
+      "reference": "Números 1 - 2"
     },
     {
       "day": 6,
-      "reference": "Números 3 e 4"
+      "reference": "Números 3 - 4"
     },
     {
       "day": 7,
-      "reference": "Números 5 e 6"
+      "reference": "Números 5 - 6"
     }
   ]
 }

@@ -3,31 +3,31 @@
   "days": [
     {
       "day": 1,
-      "reference": "Lucas 1; João 1:1 -14"
+      "reference": "Lucas 1; João 1: 1 - 14"
     },
     {
       "day": 2,
-      "reference": "Mateus 1"
+      "reference": "Mateus 1; Lucas 2: 1 - 38"
     },
     {
       "day": 3,
-      "reference": "Lucas 2:1-38"
+      "reference": "Mateus 2; Lucas 2: 39 - 52"
     },
     {
       "day": 4,
-      "reference": "Mateus 2"
+      "reference": "Mateus 3; Marcos 1; Lucas 3"
     },
     {
       "day": 5,
-      "reference": "Lucas 2:39-52"
+      "reference": "Mateus 4; Lucas4-5; João 1:15-51"
     },
     {
       "day": 6,
-      "reference": "Mateus 3; Marcos 1"
+      "reference": "João 2 a 4"
     },
     {
       "day": 7,
-      "reference": "Lucas 3"
+      "reference": "Marcos 2"
     }
   ]
 }

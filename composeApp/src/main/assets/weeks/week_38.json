@@ -7,27 +7,27 @@
     },
     {
       "day": 2,
-      "reference": "Esdr as 1 a 3"
+      "reference": "Esdras 1 a 3"
     },
     {
       "day": 3,
-      "reference": "Esdr as 4 -6"
+      "reference": "Esdras 4-6; Salmos 137"
     },
     {
       "day": 4,
-      "reference": "Salmos 137"
+      "reference": "Ageu 1 e 2"
     },
     {
       "day": 5,
-      "reference": "Ageu 1 a 2"
-    },
-    {
-      "day": 6,
       "reference": "Zacarias 1 a 7"
     },
     {
-      "day": 7,
+      "day": 6,
       "reference": "Zacarias 8 a 14"
+    },
+    {
+      "day": 7,
+      "reference": "Ester 1 a 5"
     }
   ]
 }
