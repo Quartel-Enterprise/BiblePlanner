@@ -33,3 +33,7 @@ plugins {
 }
 
 include(":composeApp")
+include(":ui:theme")
+include(":core:model")
+include(":core:navigation")
+include(":core:provider:koin")
