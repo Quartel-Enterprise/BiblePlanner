@@ -4,13 +4,15 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 53
+            "number": 5,
+            "verse": 11
           },
           "end": {
-            "number": 53
+            "number": 5,
+            "verse": 25
           }
         }
       }
@@ -18,13 +20,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 60
+            "number": 6
           },
           "end": {
-            "number": 60
+            "number": 6
           }
         }
       }
@@ -32,13 +34,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 75
+            "number": 7
           },
           "end": {
-            "number": 75
+            "number": 7
           }
         }
       }
@@ -46,13 +48,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 20
+            "number": 8
           },
           "end": {
-            "number": 20
+            "number": 9
           }
         }
       }
@@ -60,13 +62,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 65
+            "number": 10
           },
           "end": {
-            "number": 67
+            "number": 10
           }
         }
       }
@@ -74,13 +76,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 69
+            "number": 11
           },
           "end": {
-            "number": 70
+            "number": 12
           }
         }
       }
@@ -88,13 +90,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "2SA",
         "chapters": {
           "start": {
-            "number": 32
+            "number": 13
           },
           "end": {
-            "number": 32
+            "number": 15
           }
         }
       }

@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "DEU",
         "chapters": {
           "start": {
-            "number": 87
+            "number": 30
           },
           "end": {
-            "number": 87
+            "number": 31
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "DEU",
         "chapters": {
           "start": {
-            "number": 73
+            "number": 32
           },
           "end": {
-            "number": 73
+            "number": 34
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 77
+            "number": 1
           },
           "end": {
-            "number": 77
+            "number": 4
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 78
+            "number": 5
           },
           "end": {
-            "number": 78
+            "number": 8
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 81
+            "number": 9
           },
           "end": {
-            "number": 81
+            "number": 11
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 88
+            "number": 12
           },
           "end": {
-            "number": 88
+            "number": 15
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 92
+            "number": 16
           },
           "end": {
-            "number": 92
+            "number": 18
           }
         }
       }

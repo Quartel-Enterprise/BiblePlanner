@@ -4,13 +4,25 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "JDG",
         "chapters": {
           "start": {
-            "number": 47
+            "number": 13
           },
           "end": {
-            "number": 47
+            "number": 15
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "JDG",
+        "chapters": {
+          "start": {
+            "number": 16
+          },
+          "end": {
+            "number": 18
           }
         }
       }
@@ -18,13 +30,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "JDG",
         "chapters": {
           "start": {
-            "number": 68
+            "number": 19
           },
           "end": {
-            "number": 68
+            "number": 21
           }
         }
       }
@@ -32,13 +44,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "RUT",
         "chapters": {
           "start": {
-            "number": 89
+            "number": 1
           },
           "end": {
-            "number": 89
+            "number": 4
           }
         }
       }
@@ -46,13 +58,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "1SA",
         "chapters": {
           "start": {
-            "number": 96
+            "number": 1
           },
           "end": {
-            "number": 96
+            "number": 3
           }
         }
       }
@@ -60,13 +72,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "1SA",
         "chapters": {
           "start": {
-            "number": 100
+            "number": 4
           },
           "end": {
-            "number": 100
+            "number": 8
           }
         }
       }
@@ -74,13 +86,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "1SA",
         "chapters": {
           "start": {
-            "number": 101
+            "number": 9
           },
           "end": {
-            "number": 101
+            "number": 12
           }
         }
       }
@@ -88,13 +100,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "1SA",
         "chapters": {
           "start": {
-            "number": 105
+            "number": 13
           },
           "end": {
-            "number": 105
+            "number": 14
           }
         }
       }

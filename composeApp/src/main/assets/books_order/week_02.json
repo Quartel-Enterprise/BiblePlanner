@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "2CH",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 28
+            "number": 32
           },
           "end": {
-            "number": 30
+            "number": 34
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "2CH",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 29
+            "number": 35
           },
           "end": {
-            "number": 31
+            "number": 37
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "2CH",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 32
+            "number": 38
           },
           "end": {
-            "number": 33
+            "number": 40
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "2CH",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 34
+            "number": 41
           },
           "end": {
-            "number": 35
+            "number": 42
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "2CH",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 36
+            "number": 43
           },
           "end": {
-            "number": 36
+            "number": 45
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "EZR",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 46
           },
           "end": {
-            "number": 3
+            "number": 47
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "EZR",
+        "book": "GEN",
         "chapters": {
           "start": {
-            "number": 4
+            "number": 48
           },
           "end": {
-            "number": 6
+            "number": 50
           }
         }
       }

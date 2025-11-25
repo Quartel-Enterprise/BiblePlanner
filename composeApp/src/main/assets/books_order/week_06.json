@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "LEV",
         "chapters": {
           "start": {
-            "number": 11
+            "number": 22
           },
           "end": {
-            "number": 59
+            "number": 23
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "LEV",
         "chapters": {
           "start": {
-            "number": 7
+            "number": 24
           },
           "end": {
-            "number": 7
+            "number": 26
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "LEV",
         "chapters": {
           "start": {
-            "number": 31
+            "number": 27
           },
           "end": {
-            "number": 31
+            "number": 27
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 34
+            "number": 1
           },
           "end": {
-            "number": 34
+            "number": 2
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 52
+            "number": 3
           },
           "end": {
-            "number": 52
+            "number": 4
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 74
+            "number": 5
           },
           "end": {
-            "number": 74
+            "number": 6
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 56
+            "number": 7
           },
           "end": {
-            "number": 56
+            "number": 7
           }
         }
       }

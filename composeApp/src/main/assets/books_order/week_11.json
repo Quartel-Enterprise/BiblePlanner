@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 93
+            "number": 19
           },
           "end": {
-            "number": 93
+            "number": 21
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "JOS",
         "chapters": {
           "start": {
-            "number": 102
+            "number": 22
           },
           "end": {
-            "number": 104
+            "number": 24
           }
         }
       }
@@ -32,35 +32,7 @@
     [
       {
         "day": 3,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 133
-          },
-          "end": {
-            "number": 133
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 106
-          },
-          "end": {
-            "number": 107
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "PSA",
+        "book": "JDG",
         "chapters": {
           "start": {
             "number": 1
@@ -73,14 +45,42 @@
     ],
     [
       {
-        "day": 6,
-        "book": "PSA",
+        "day": 4,
+        "book": "JDG",
         "chapters": {
           "start": {
-            "number": 15
+            "number": 3
           },
           "end": {
-            "number": 15
+            "number": 5
+          }
+        }
+      }
+    ],
+    [
+      {
+        "day": 5,
+        "book": "JDG",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 7
+          }
+        }
+      }
+    ],
+    [
+      {
+        "day": 6,
+        "book": "JDG",
+        "chapters": {
+          "start": {
+            "number": 8
+          },
+          "end": {
+            "number": 9
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "JDG",
         "chapters": {
           "start": {
-            "number": 22
+            "number": 10
           },
           "end": {
-            "number": 24
+            "number": 12
           }
         }
       }

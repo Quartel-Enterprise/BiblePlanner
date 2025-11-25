@@ -4,15 +4,37 @@
     [
       {
         "day": 1,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 18,
-            "verse": 1
+            "number": 1
           },
           "end": {
-            "number": 18,
-            "verse": 14
+            "number": 1
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 2
+          },
+          "end": {
+            "number": 2
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 3
+          },
+          "end": {
+            "number": 3
           }
         }
       }
@@ -20,15 +42,25 @@
     [
       {
         "day": 2,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 17,
-            "verse": 11
+            "number": 4
           },
           "end": {
-            "number": 17,
-            "verse": 37
+            "number": 5
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 6
           }
         }
       }
@@ -36,15 +68,25 @@
     [
       {
         "day": 3,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 19,
-            "verse": 1
+            "number": 7
           },
           "end": {
-            "number": 19,
-            "verse": 48
+            "number": 7
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 8
+          },
+          "end": {
+            "number": 8
           }
         }
       }
@@ -52,13 +94,25 @@
     [
       {
         "day": 4,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 20
+            "number": 9
           },
           "end": {
-            "number": 21
+            "number": 9
+          }
+        }
+      },
+      {
+        "day": 4,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 10
+          },
+          "end": {
+            "number": 10
           }
         }
       }
@@ -66,13 +120,25 @@
     [
       {
         "day": 5,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 22
+            "number": 11
           },
           "end": {
-            "number": 22
+            "number": 11
+          }
+        }
+      },
+      {
+        "day": 5,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 12
+          },
+          "end": {
+            "number": 12
           }
         }
       }
@@ -80,13 +146,25 @@
     [
       {
         "day": 6,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 23
+            "number": 13
           },
           "end": {
-            "number": 23
+            "number": 13
+          }
+        }
+      },
+      {
+        "day": 6,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 14
+          },
+          "end": {
+            "number": 14
           }
         }
       }
@@ -94,13 +172,25 @@
     [
       {
         "day": 7,
-        "book": "LUK",
+        "book": "MRK",
         "chapters": {
           "start": {
-            "number": 24
+            "number": 15
           },
           "end": {
-            "number": 24
+            "number": 15
+          }
+        }
+      },
+      {
+        "day": 7,
+        "book": "MRK",
+        "chapters": {
+          "start": {
+            "number": 16
+          },
+          "end": {
+            "number": 16
           }
         }
       }

@@ -4,13 +4,25 @@
     [
       {
         "day": 1,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 32
+            "number": 16
           },
           "end": {
-            "number": 34
+            "number": 18
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "PRO",
+        "chapters": {
+          "start": {
+            "number": 19
+          },
+          "end": {
+            "number": 21
           }
         }
       }
@@ -18,13 +30,25 @@
     [
       {
         "day": 2,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 35
+            "number": 22
           },
           "end": {
-            "number": 37
+            "number": 24
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "PRO",
+        "chapters": {
+          "start": {
+            "number": 25
+          },
+          "end": {
+            "number": 26
           }
         }
       }
@@ -32,13 +56,25 @@
     [
       {
         "day": 3,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 38
+            "number": 27
           },
           "end": {
-            "number": 39
+            "number": 29
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "PRO",
+        "chapters": {
+          "start": {
+            "number": 30
+          },
+          "end": {
+            "number": 31
           }
         }
       }
@@ -46,13 +82,13 @@
     [
       {
         "day": 4,
-        "book": "EZK",
+        "book": "ECC",
         "chapters": {
           "start": {
-            "number": 40
+            "number": 1
           },
           "end": {
-            "number": 41
+            "number": 6
           }
         }
       }
@@ -60,13 +96,13 @@
     [
       {
         "day": 5,
-        "book": "EZK",
+        "book": "ECC",
         "chapters": {
           "start": {
-            "number": 42
+            "number": 7
           },
           "end": {
-            "number": 43
+            "number": 12
           }
         }
       }
@@ -74,13 +110,13 @@
     [
       {
         "day": 6,
-        "book": "EZK",
+        "book": "SNG",
         "chapters": {
           "start": {
-            "number": 44
+            "number": 1
           },
           "end": {
-            "number": 45
+            "number": 8
           }
         }
       }
@@ -88,13 +124,13 @@
     [
       {
         "day": 7,
-        "book": "EZK",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 46
+            "number": 1
           },
           "end": {
-            "number": 48
+            "number": 4
           }
         }
       }

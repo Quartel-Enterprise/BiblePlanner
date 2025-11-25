@@ -4,13 +4,29 @@
     [
       {
         "day": 1,
-        "book": "ROM",
+        "book": "ACT",
         "chapters": {
           "start": {
-            "number": 8
+            "number": 20,
+            "verse": 1
           },
           "end": {
-            "number": 10
+            "number": 20,
+            "verse": 3
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "ACT",
+        "chapters": {
+          "start": {
+            "number": 20,
+            "verse": 4
+          },
+          "end": {
+            "number": 20,
+            "verse": 38
           }
         }
       }
@@ -18,13 +34,25 @@
     [
       {
         "day": 2,
-        "book": "ROM",
+        "book": "ACT",
         "chapters": {
           "start": {
-            "number": 11
+            "number": 21
           },
           "end": {
-            "number": 13
+            "number": 21
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "ACT",
+        "chapters": {
+          "start": {
+            "number": 22
+          },
+          "end": {
+            "number": 22
           }
         }
       }
@@ -32,13 +60,27 @@
     [
       {
         "day": 3,
-        "book": "ROM",
+        "book": "ACT",
         "chapters": {
           "start": {
-            "number": 14
+            "number": 23,
+            "verse": 1
           },
           "end": {
-            "number": 16
+            "number": 23,
+            "verse": 35
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "ACT",
+        "chapters": {
+          "start": {
+            "number": 24
+          },
+          "end": {
+            "number": 26
           }
         }
       }
@@ -46,13 +88,13 @@
     [
       {
         "day": 4,
-        "book": "1CO",
+        "book": "ACT",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 27
           },
           "end": {
-            "number": 4
+            "number": 28
           }
         }
       }
@@ -60,13 +102,13 @@
     [
       {
         "day": 5,
-        "book": "1CO",
+        "book": "ROM",
         "chapters": {
           "start": {
-            "number": 5
+            "number": 1
           },
           "end": {
-            "number": 8
+            "number": 3
           }
         }
       }
@@ -74,13 +116,13 @@
     [
       {
         "day": 6,
-        "book": "1CO",
+        "book": "ROM",
         "chapters": {
           "start": {
-            "number": 9
+            "number": 4
           },
           "end": {
-            "number": 11
+            "number": 7
           }
         }
       }
@@ -88,13 +130,13 @@
     [
       {
         "day": 7,
-        "book": "1CO",
+        "book": "ROM",
         "chapters": {
           "start": {
-            "number": 12
+            "number": 8
           },
           "end": {
-            "number": 14
+            "number": 10
           }
         }
       }

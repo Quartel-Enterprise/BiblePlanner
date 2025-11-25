@@ -4,13 +4,25 @@
     [
       {
         "day": 1,
-        "book": "EZK",
+        "book": "PSA",
         "chapters": {
           "start": {
-            "number": 13
+            "number": 140
           },
           "end": {
-            "number": 15
+            "number": 142
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "PSA",
+        "chapters": {
+          "start": {
+            "number": 143
+          },
+          "end": {
+            "number": 145
           }
         }
       }
@@ -18,13 +30,13 @@
     [
       {
         "day": 2,
-        "book": "EZK",
+        "book": "PSA",
         "chapters": {
           "start": {
-            "number": 16
+            "number": 146
           },
           "end": {
-            "number": 17
+            "number": 150
           }
         }
       }
@@ -32,13 +44,13 @@
     [
       {
         "day": 3,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 18
+            "number": 1
           },
           "end": {
-            "number": 19
+            "number": 3
           }
         }
       }
@@ -46,13 +58,13 @@
     [
       {
         "day": 4,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 20
+            "number": 4
           },
           "end": {
-            "number": 21
+            "number": 6
           }
         }
       }
@@ -60,13 +72,13 @@
     [
       {
         "day": 5,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 22
+            "number": 7
           },
           "end": {
-            "number": 23
+            "number": 9
           }
         }
       }
@@ -74,13 +86,13 @@
     [
       {
         "day": 6,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 24
+            "number": 10
           },
           "end": {
-            "number": 27
+            "number": 12
           }
         }
       }
@@ -88,13 +100,13 @@
     [
       {
         "day": 7,
-        "book": "EZK",
+        "book": "PRO",
         "chapters": {
           "start": {
-            "number": 28
+            "number": 13
           },
           "end": {
-            "number": 31
+            "number": 15
           }
         }
       }

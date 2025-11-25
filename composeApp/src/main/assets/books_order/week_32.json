@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "AMO",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 37
           },
           "end": {
-            "number": 5
+            "number": 39
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "AMO",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 6
+            "number": 40
           },
           "end": {
-            "number": 9
+            "number": 43
           }
         }
       }
@@ -32,19 +32,27 @@
     [
       {
         "day": 3,
-        "book": "OBA"
+        "book": "ISA",
+        "chapters": {
+          "start": {
+            "number": 44
+          },
+          "end": {
+            "number": 48
+          }
+        }
       }
     ],
     [
       {
         "day": 4,
-        "book": "JON",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 49
           },
           "end": {
-            "number": 4
+            "number": 53
           }
         }
       }
@@ -52,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "MIC",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 54
           },
           "end": {
-            "number": 7
+            "number": 58
           }
         }
       }
@@ -66,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "NAM",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 59
           },
           "end": {
-            "number": 3
+            "number": 63
           }
         }
       }
@@ -80,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "HAB",
+        "book": "ISA",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 64
           },
           "end": {
-            "number": 3
+            "number": 66
           }
         }
       }

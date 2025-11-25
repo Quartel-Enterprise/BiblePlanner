@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 22
           },
           "end": {
-            "number": 5
+            "number": 24
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 6
+            "number": 25
           },
           "end": {
-            "number": 9
+            "number": 27
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 10
+            "number": 28
           },
           "end": {
-            "number": 13
+            "number": 29
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 14
+            "number": 30
           },
           "end": {
-            "number": 16
+            "number": 32
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 17
+            "number": 33
           },
           "end": {
-            "number": 20
+            "number": 35
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 21
+            "number": 36
           },
           "end": {
-            "number": 23
+            "number": 38
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "JOB",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 24
+            "number": 39
           },
           "end": {
-            "number": 28
+            "number": 40
           }
         }
       }

@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 120
+            "number": 8
           },
           "end": {
-            "number": 120
+            "number": 10
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 140
+            "number": 11
           },
           "end": {
-            "number": 142
+            "number": 13
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 17
+            "number": 14
           },
           "end": {
-            "number": 17
+            "number": 15
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 35
+            "number": 18
           },
           "end": {
-            "number": 35
+            "number": 20
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 54
+            "number": 21
           },
           "end": {
-            "number": 54
+            "number": 22
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 63
+            "number": 23
           },
           "end": {
-            "number": 63
+            "number": 25
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 18
+            "number": 26
           },
           "end": {
-            "number": 18
+            "number": 27
           }
         }
       }

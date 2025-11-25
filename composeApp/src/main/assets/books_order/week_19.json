@@ -4,13 +4,37 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "NEH",
         "chapters": {
           "start": {
-            "number": 94
+            "number": 1
           },
           "end": {
-            "number": 94
+            "number": 5
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "NEH",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 7
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "NEH",
+        "chapters": {
+          "start": {
+            "number": 8
+          },
+          "end": {
+            "number": 10
           }
         }
       }
@@ -18,15 +42,37 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "NEH",
         "chapters": {
           "start": {
-            "number": 119,
-            "verse": 1
+            "number": 11
           },
           "end": {
-            "number": 119,
-            "verse": 88
+            "number": 13
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "EST",
+        "chapters": {
+          "start": {
+            "number": 1
+          },
+          "end": {
+            "number": 5
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "EST",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 10
           }
         }
       }
@@ -34,13 +80,37 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "JOB",
         "chapters": {
           "start": {
-            "number": 72
+            "number": 1
           },
           "end": {
-            "number": 72
+            "number": 5
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 9
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 10
+          },
+          "end": {
+            "number": 13
           }
         }
       }
@@ -48,15 +118,37 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "JOB",
         "chapters": {
           "start": {
-            "number": 119,
-            "verse": 89
+            "number": 14
           },
           "end": {
-            "number": 119,
-            "verse": 176
+            "number": 16
+          }
+        }
+      },
+      {
+        "day": 4,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 17
+          },
+          "end": {
+            "number": 20
+          }
+        }
+      },
+      {
+        "day": 4,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 21
+          },
+          "end": {
+            "number": 23
           }
         }
       }
@@ -64,13 +156,37 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "JOB",
         "chapters": {
           "start": {
-            "number": 136
+            "number": 24
           },
           "end": {
-            "number": 136
+            "number": 28
+          }
+        }
+      },
+      {
+        "day": 5,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 29
+          },
+          "end": {
+            "number": 31
+          }
+        }
+      },
+      {
+        "day": 5,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 32
+          },
+          "end": {
+            "number": 34
           }
         }
       }
@@ -78,13 +194,37 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "JOB",
         "chapters": {
           "start": {
-            "number": 134
+            "number": 35
           },
           "end": {
-            "number": 134
+            "number": 37
+          }
+        }
+      },
+      {
+        "day": 6,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 38
+          },
+          "end": {
+            "number": 39
+          }
+        }
+      },
+      {
+        "day": 6,
+        "book": "JOB",
+        "chapters": {
+          "start": {
+            "number": 40
+          },
+          "end": {
+            "number": 42
           }
         }
       }
@@ -95,10 +235,22 @@
         "book": "PSA",
         "chapters": {
           "start": {
-            "number": 146
+            "number": 1
           },
           "end": {
-            "number": 150
+            "number": 2
+          }
+        }
+      },
+      {
+        "day": 7,
+        "book": "PSA",
+        "chapters": {
+          "start": {
+            "number": 3
+          },
+          "end": {
+            "number": 4
           }
         }
       }

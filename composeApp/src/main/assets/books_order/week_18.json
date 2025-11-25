@@ -4,13 +4,37 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "2CH",
         "chapters": {
           "start": {
-            "number": 131
+            "number": 8
           },
           "end": {
-            "number": 131
+            "number": 8
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 9
+          },
+          "end": {
+            "number": 9
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 10
+          },
+          "end": {
+            "number": 12
           }
         }
       }
@@ -18,13 +42,37 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "2CH",
         "chapters": {
           "start": {
-            "number": 138
+            "number": 13
           },
           "end": {
-            "number": 139
+            "number": 16
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 17
+          },
+          "end": {
+            "number": 17
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 18
+          },
+          "end": {
+            "number": 18
           }
         }
       }
@@ -32,13 +80,37 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "2CH",
         "chapters": {
           "start": {
-            "number": 143
+            "number": 19
           },
           "end": {
-            "number": 145
+            "number": 23
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 24
+          },
+          "end": {
+            "number": 24
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 25
+          },
+          "end": {
+            "number": 25
           }
         }
       }
@@ -46,13 +118,37 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 26
+          },
+          "end": {
+            "number": 26
+          }
+        }
+      },
+      {
+        "day": 4,
+        "book": "2CH",
         "chapters": {
           "start": {
             "number": 27
           },
           "end": {
             "number": 27
+          }
+        }
+      },
+      {
+        "day": 4,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 28
+          },
+          "end": {
+            "number": 30
           }
         }
       }
@@ -60,13 +156,37 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "2CH",
         "chapters": {
           "start": {
-            "number": 111
+            "number": 29
           },
           "end": {
-            "number": 118
+            "number": 31
+          }
+        }
+      },
+      {
+        "day": 5,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 32
+          },
+          "end": {
+            "number": 33
+          }
+        }
+      },
+      {
+        "day": 5,
+        "book": "2CH",
+        "chapters": {
+          "start": {
+            "number": 34
+          },
+          "end": {
+            "number": 35
           }
         }
       }
@@ -74,13 +194,25 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "2CH",
         "chapters": {
           "start": {
-            "number": 37
+            "number": 36
           },
           "end": {
-            "number": 37
+            "number": 36
+          }
+        }
+      },
+      {
+        "day": 6,
+        "book": "EZR",
+        "chapters": {
+          "start": {
+            "number": 1
+          },
+          "end": {
+            "number": 3
           }
         }
       }
@@ -88,13 +220,25 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "EZR",
         "chapters": {
           "start": {
-            "number": 71
+            "number": 4
           },
           "end": {
-            "number": 71
+            "number": 6
+          }
+        }
+      },
+      {
+        "day": 7,
+        "book": "EZR",
+        "chapters": {
+          "start": {
+            "number": 7
+          },
+          "end": {
+            "number": 10
           }
         }
       }

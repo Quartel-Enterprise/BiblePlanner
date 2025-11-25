@@ -4,15 +4,27 @@
     [
       {
         "day": 1,
-        "book": "JHN",
+        "book": "LUK",
         "chapters": {
           "start": {
-            "number": 1,
+            "number": 1
+          },
+          "end": {
+            "number": 1
+          }
+        }
+      },
+      {
+        "day": 1,
+        "book": "LUK",
+        "chapters": {
+          "start": {
+            "number": 2,
             "verse": 1
           },
           "end": {
-            "number": 1,
-            "verse": 14
+            "number": 2,
+            "verse": 38
           }
         }
       }
@@ -20,15 +32,27 @@
     [
       {
         "day": 2,
-        "book": "JHN",
+        "book": "LUK",
         "chapters": {
           "start": {
-            "number": 1,
-            "verse": 15
+            "number": 2,
+            "verse": 39
           },
           "end": {
-            "number": 1,
-            "verse": 51
+            "number": 2,
+            "verse": 52
+          }
+        }
+      },
+      {
+        "day": 2,
+        "book": "LUK",
+        "chapters": {
+          "start": {
+            "number": 3
+          },
+          "end": {
+            "number": 3
           }
         }
       }
@@ -36,13 +60,25 @@
     [
       {
         "day": 3,
-        "book": "JHN",
+        "book": "LUK",
         "chapters": {
           "start": {
-            "number": 2
+            "number": 4
           },
           "end": {
-            "number": 4
+            "number": 5
+          }
+        }
+      },
+      {
+        "day": 3,
+        "book": "LUK",
+        "chapters": {
+          "start": {
+            "number": 6
+          },
+          "end": {
+            "number": 6
           }
         }
       }
@@ -50,13 +86,13 @@
     [
       {
         "day": 4,
-        "book": "JHN",
+        "book": "LUK",
         "chapters": {
           "start": {
-            "number": 5
+            "number": 7
           },
           "end": {
-            "number": 5
+            "number": 7
           }
         }
       }
@@ -64,24 +100,10 @@
     [
       {
         "day": 5,
-        "book": "JHN",
+        "book": "LUK",
         "chapters": {
           "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 6
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 7
+            "number": 8
           },
           "end": {
             "number": 8
@@ -91,16 +113,32 @@
     ],
     [
       {
-        "day": 7,
-        "book": "JHN",
+        "day": 6,
+        "book": "LUK",
         "chapters": {
           "start": {
             "number": 9,
-            "verse": 1
+            "verse": 18
           },
           "end": {
             "number": 9,
-            "verse": 41
+            "verse": 17
+          }
+        }
+      }
+    ],
+    [
+      {
+        "day": 7,
+        "book": "LUK",
+        "chapters": {
+          "start": {
+            "number": 9,
+            "verse": 18
+          },
+          "end": {
+            "number": 9,
+            "verse": 27
           }
         }
       }

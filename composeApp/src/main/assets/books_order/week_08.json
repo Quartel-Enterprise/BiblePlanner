@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 121
+            "number": 28
           },
           "end": {
-            "number": 121
+            "number": 30
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 123
+            "number": 31
           },
           "end": {
-            "number": 125
+            "number": 32
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 127
+            "number": 33
           },
           "end": {
-            "number": 127
+            "number": 34
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "PSA",
+        "book": "NUM",
         "chapters": {
           "start": {
-            "number": 128
+            "number": 35
           },
           "end": {
-            "number": 130
+            "number": 36
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "PSA",
+        "book": "DEU",
         "chapters": {
           "start": {
-            "number": 6
+            "number": 1
           },
           "end": {
-            "number": 6
+            "number": 2
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "PSA",
+        "book": "DEU",
         "chapters": {
           "start": {
-            "number": 8
+            "number": 3
           },
           "end": {
-            "number": 10
+            "number": 4
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "PSA",
+        "book": "DEU",
         "chapters": {
           "start": {
-            "number": 14
+            "number": 5
           },
           "end": {
-            "number": 14
+            "number": 7
           }
         }
       }

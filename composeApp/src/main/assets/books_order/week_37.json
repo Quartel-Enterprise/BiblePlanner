@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "MAT",
+        "book": "EZK",
         "chapters": {
           "start": {
-            "number": 26
+            "number": 42
           },
           "end": {
-            "number": 26
+            "number": 43
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "MAT",
+        "book": "EZK",
         "chapters": {
           "start": {
-            "number": 27
+            "number": 44
           },
           "end": {
-            "number": 27
+            "number": 45
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "MAT",
+        "book": "EZK",
         "chapters": {
           "start": {
-            "number": 28
+            "number": 46
           },
           "end": {
-            "number": 28
+            "number": 48
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "MRK",
+        "book": "DAN",
         "chapters": {
           "start": {
             "number": 1
           },
           "end": {
-            "number": 1
+            "number": 3
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "MRK",
+        "book": "DAN",
         "chapters": {
           "start": {
-            "number": 2
+            "number": 4
           },
           "end": {
-            "number": 2
+            "number": 6
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "MRK",
+        "book": "DAN",
         "chapters": {
           "start": {
-            "number": 3
+            "number": 7
           },
           "end": {
-            "number": 3
+            "number": 9
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "MRK",
+        "book": "DAN",
         "chapters": {
           "start": {
-            "number": 4
+            "number": 10
           },
           "end": {
-            "number": 5
+            "number": 12
           }
         }
       }

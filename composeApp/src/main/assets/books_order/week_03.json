@@ -4,13 +4,13 @@
     [
       {
         "day": 1,
-        "book": "EZR",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 7
+            "number": 1
           },
           "end": {
-            "number": 10
+            "number": 3
           }
         }
       }
@@ -18,13 +18,13 @@
     [
       {
         "day": 2,
-        "book": "NEH",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 4
           },
           "end": {
-            "number": 5
+            "number": 6
           }
         }
       }
@@ -32,13 +32,13 @@
     [
       {
         "day": 3,
-        "book": "NEH",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 6
+            "number": 7
           },
           "end": {
-            "number": 7
+            "number": 9
           }
         }
       }
@@ -46,13 +46,13 @@
     [
       {
         "day": 4,
-        "book": "NEH",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 8
+            "number": 10
           },
           "end": {
-            "number": 10
+            "number": 12
           }
         }
       }
@@ -60,13 +60,13 @@
     [
       {
         "day": 5,
-        "book": "NEH",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 11
+            "number": 13
           },
           "end": {
-            "number": 13
+            "number": 15
           }
         }
       }
@@ -74,13 +74,13 @@
     [
       {
         "day": 6,
-        "book": "EST",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 1
+            "number": 16
           },
           "end": {
-            "number": 5
+            "number": 18
           }
         }
       }
@@ -88,13 +88,13 @@
     [
       {
         "day": 7,
-        "book": "EST",
+        "book": "EXO",
         "chapters": {
           "start": {
-            "number": 6
+            "number": 19
           },
           "end": {
-            "number": 10
+            "number": 21
           }
         }
       }
