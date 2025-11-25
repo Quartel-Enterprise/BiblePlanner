@@ -1,157 +1,167 @@
 {
   "week": 41,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 5
-          },
-          "end": {
-            "number": 5
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 5
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 12,
-            "verse": 1
-          },
-          "end": {
-            "number": 12,
-            "verse": 21
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 12,
+              "verse": 1
+            },
+            "end": {
+              "number": 12,
+              "verse": 21
+            }
+          }
+        },
+        {
+          "name": "MRK",
+          "chapters": {
+            "start": {
+              "number": 3
+            },
+            "end": {
+              "number": 3
+            }
+          }
+        },
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 6
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      },
-      {
-        "day": 2,
-        "book": "MRK",
-        "chapters": {
-          "start": {
-            "number": 3
-          },
-          "end": {
-            "number": 3
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 5
+            },
+            "end": {
+              "number": 7
+            }
           }
         }
-      },
-      {
-        "day": 2,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 6
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 8,
+              "verse": 1
+            },
+            "end": {
+              "number": 8,
+              "verse": 13
+            }
+          }
+        },
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 7
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 5
-          },
-          "end": {
-            "number": 7
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 11
+            },
+            "end": {
+              "number": 11
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 8,
-            "verse": 1
-          },
-          "end": {
-            "number": 8,
-            "verse": 13
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 12,
+              "verse": 22
+            },
+            "end": {
+              "number": 12,
+              "verse": 50
+            }
           }
         }
-      },
-      {
-        "day": 4,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 7
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 13
+            },
+            "end": {
+              "number": 13
+            }
+          }
+        },
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 8
+            },
+            "end": {
+              "number": 8
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 11
-          },
-          "end": {
-            "number": 11
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 12,
-            "verse": 22
-          },
-          "end": {
-            "number": 12,
-            "verse": 50
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 13
-          },
-          "end": {
-            "number": 13
-          }
-        }
-      },
-      {
-        "day": 7,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 8
-          },
-          "end": {
-            "number": 8
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

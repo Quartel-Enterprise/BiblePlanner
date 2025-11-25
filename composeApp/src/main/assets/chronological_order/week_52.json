@@ -1,103 +1,115 @@
 {
   "week": 52,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "2TI",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 4
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "2TI",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 4
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "2PE",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 3
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "2PE",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 3
+            }
+          }
+        },
+        {
+          "name": "JUD"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "1JN",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      },
-      {
-        "day": 2,
-        "book": "JUD"
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "1JN",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 5
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "2JN"
+        },
+        {
+          "name": "3JN"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "REV",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "2JN"
-      },
-      {
-        "day": 4,
-        "book": "3JN"
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "REV",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 5
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "REV",
+          "chapters": {
+            "start": {
+              "number": 6
+            },
+            "end": {
+              "number": 11
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "REV",
-        "chapters": {
-          "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 11
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "REV",
+          "chapters": {
+            "start": {
+              "number": 12
+            },
+            "end": {
+              "number": 22
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "REV",
-        "chapters": {
-          "start": {
-            "number": 12
-          },
-          "end": {
-            "number": 22
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

@@ -1,103 +1,117 @@
 {
   "week": 10,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 23
-          },
-          "end": {
-            "number": 25
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 23
+            },
+            "end": {
+              "number": 25
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 26
-          },
-          "end": {
-            "number": 27
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 26
+            },
+            "end": {
+              "number": 27
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 28
-          },
-          "end": {
-            "number": 30
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 28
+            },
+            "end": {
+              "number": 30
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 31
-          },
-          "end": {
-            "number": 32
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 31
+            },
+            "end": {
+              "number": 32
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 33
-          },
-          "end": {
-            "number": 34
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 33
+            },
+            "end": {
+              "number": 34
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "NUM",
-        "chapters": {
-          "start": {
-            "number": 35
-          },
-          "end": {
-            "number": 36
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "NUM",
+          "chapters": {
+            "start": {
+              "number": 35
+            },
+            "end": {
+              "number": 36
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 2
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 2
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

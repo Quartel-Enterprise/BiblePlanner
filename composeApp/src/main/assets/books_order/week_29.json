@@ -1,115 +1,128 @@
 {
   "week": 29,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 140
-          },
-          "end": {
-            "number": 142
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 140
+            },
+            "end": {
+              "number": 142
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 143
+            },
+            "end": {
+              "number": 145
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 143
-          },
-          "end": {
-            "number": 145
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 146
+            },
+            "end": {
+              "number": 150
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 146
-          },
-          "end": {
-            "number": 150
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "PRO",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 3
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "PRO",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 3
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "PRO",
+          "chapters": {
+            "start": {
+              "number": 4
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "PRO",
-        "chapters": {
-          "start": {
-            "number": 4
-          },
-          "end": {
-            "number": 6
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "PRO",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 9
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "PRO",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 9
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "PRO",
+          "chapters": {
+            "start": {
+              "number": 10
+            },
+            "end": {
+              "number": 12
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "PRO",
-        "chapters": {
-          "start": {
-            "number": 10
-          },
-          "end": {
-            "number": 12
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "PRO",
+          "chapters": {
+            "start": {
+              "number": 13
+            },
+            "end": {
+              "number": 15
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "PRO",
-        "chapters": {
-          "start": {
-            "number": 13
-          },
-          "end": {
-            "number": 15
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

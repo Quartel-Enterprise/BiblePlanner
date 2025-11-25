@@ -1,103 +1,117 @@
 {
   "week": 51,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "PHP",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 4
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "PHP",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 4
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "1TI",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 6
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "1TI",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "TIT",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 3
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "TIT",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 3
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "1PE",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 5
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "1PE",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "HEB",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 6
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "HEB",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "HEB",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 10
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "HEB",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 10
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "HEB",
-        "chapters": {
-          "start": {
-            "number": 11
-          },
-          "end": {
-            "number": 13
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "HEB",
+          "chapters": {
+            "start": {
+              "number": 11
+            },
+            "end": {
+              "number": 13
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

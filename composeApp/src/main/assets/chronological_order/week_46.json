@@ -1,151 +1,161 @@
 {
   "week": 46,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 27
-          },
-          "end": {
-            "number": 27
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 27
+            },
+            "end": {
+              "number": 27
+            }
+          }
+        },
+        {
+          "name": "MRK",
+          "chapters": {
+            "start": {
+              "number": 15
+            },
+            "end": {
+              "number": 15
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "MRK",
-        "chapters": {
-          "start": {
-            "number": 15
-          },
-          "end": {
-            "number": 15
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 23
+            },
+            "end": {
+              "number": 23
+            }
+          }
+        },
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 18
+            },
+            "end": {
+              "number": 19
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 23
-          },
-          "end": {
-            "number": 23
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "MAT",
+          "chapters": {
+            "start": {
+              "number": 28
+            },
+            "end": {
+              "number": 28
+            }
+          }
+        },
+        {
+          "name": "MRK",
+          "chapters": {
+            "start": {
+              "number": 16
+            },
+            "end": {
+              "number": 16
+            }
           }
         }
-      },
-      {
-        "day": 2,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 18
-          },
-          "end": {
-            "number": 19
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 24
+            },
+            "end": {
+              "number": 24
+            }
+          }
+        },
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 20
+            },
+            "end": {
+              "number": 21
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "MAT",
-        "chapters": {
-          "start": {
-            "number": 28
-          },
-          "end": {
-            "number": 28
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "ACT",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 3
+            }
           }
         }
-      },
-      {
-        "day": 3,
-        "book": "MRK",
-        "chapters": {
-          "start": {
-            "number": 16
-          },
-          "end": {
-            "number": 16
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "ACT",
+          "chapters": {
+            "start": {
+              "number": 4
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 24
-          },
-          "end": {
-            "number": 24
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "ACT",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 8
+            }
           }
         }
-      },
-      {
-        "day": 4,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 20
-          },
-          "end": {
-            "number": 21
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "ACT",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 3
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "ACT",
-        "chapters": {
-          "start": {
-            "number": 4
-          },
-          "end": {
-            "number": 6
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "ACT",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 8
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

@@ -1,115 +1,128 @@
 {
   "week": 39,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "EST",
-        "chapters": {
-          "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 10
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "EST",
+          "chapters": {
+            "start": {
+              "number": 6
+            },
+            "end": {
+              "number": 10
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "EZR",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 10
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "EZR",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 10
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "NEH",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 5
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "NEH",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "NEH",
-        "chapters": {
-          "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 7
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "NEH",
+          "chapters": {
+            "start": {
+              "number": 6
+            },
+            "end": {
+              "number": 7
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "NEH",
-        "chapters": {
-          "start": {
-            "number": 8
-          },
-          "end": {
-            "number": 10
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "NEH",
+          "chapters": {
+            "start": {
+              "number": 8
+            },
+            "end": {
+              "number": 10
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "NEH",
-        "chapters": {
-          "start": {
-            "number": 11
-          },
-          "end": {
-            "number": 13
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "NEH",
+          "chapters": {
+            "start": {
+              "number": 11
+            },
+            "end": {
+              "number": 13
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 126
+            },
+            "end": {
+              "number": 126
+            }
           }
         }
-      },
-      {
-        "day": 6,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 126
-          },
-          "end": {
-            "number": 126
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "MAL",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 4
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "MAL",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 4
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

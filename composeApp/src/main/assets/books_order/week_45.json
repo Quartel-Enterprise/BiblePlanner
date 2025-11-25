@@ -1,147 +1,158 @@
 {
   "week": 45,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 23
-          },
-          "end": {
-            "number": 23
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 23
+            },
+            "end": {
+              "number": 23
+            }
+          }
+        },
+        {
+          "name": "LUK",
+          "chapters": {
+            "start": {
+              "number": 24
+            },
+            "end": {
+              "number": 24
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "LUK",
-        "chapters": {
-          "start": {
-            "number": 24
-          },
-          "end": {
-            "number": 24
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 1,
+              "verse": 1
+            },
+            "end": {
+              "number": 1,
+              "verse": 14
+            }
+          }
+        },
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 1,
+              "verse": 15
+            },
+            "end": {
+              "number": 1,
+              "verse": 51
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 1,
-            "verse": 1
-          },
-          "end": {
-            "number": 1,
-            "verse": 14
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 2
+            },
+            "end": {
+              "number": 4
+            }
+          }
+        },
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 5
+            },
+            "end": {
+              "number": 5
+            }
           }
         }
-      },
-      {
-        "day": 2,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 1,
-            "verse": 15
-          },
-          "end": {
-            "number": 1,
-            "verse": 51
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 6
+            },
+            "end": {
+              "number": 6
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 2
-          },
-          "end": {
-            "number": 4
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 7
+            },
+            "end": {
+              "number": 8
+            }
           }
         }
-      },
-      {
-        "day": 3,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 5
-          },
-          "end": {
-            "number": 5
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 9,
+              "verse": 1
+            },
+            "end": {
+              "number": 9,
+              "verse": 41
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 6
-          },
-          "end": {
-            "number": 6
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "JHN",
+          "chapters": {
+            "start": {
+              "number": 10,
+              "verse": 1
+            },
+            "end": {
+              "number": 10,
+              "verse": 21
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 7
-          },
-          "end": {
-            "number": 8
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 9,
-            "verse": 1
-          },
-          "end": {
-            "number": 9,
-            "verse": 41
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "JHN",
-        "chapters": {
-          "start": {
-            "number": 10,
-            "verse": 1
-          },
-          "end": {
-            "number": 10,
-            "verse": 21
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

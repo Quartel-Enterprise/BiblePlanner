@@ -1,103 +1,117 @@
 {
   "week": 4,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 22
-          },
-          "end": {
-            "number": 24
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 22
+            },
+            "end": {
+              "number": 24
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 25
-          },
-          "end": {
-            "number": 27
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 25
+            },
+            "end": {
+              "number": 27
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 28
-          },
-          "end": {
-            "number": 29
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 28
+            },
+            "end": {
+              "number": 29
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 30
-          },
-          "end": {
-            "number": 32
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 30
+            },
+            "end": {
+              "number": 32
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 33
-          },
-          "end": {
-            "number": 35
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 33
+            },
+            "end": {
+              "number": 35
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 36
-          },
-          "end": {
-            "number": 38
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 36
+            },
+            "end": {
+              "number": 38
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "EXO",
-        "chapters": {
-          "start": {
-            "number": 39
-          },
-          "end": {
-            "number": 40
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "EXO",
+          "chapters": {
+            "start": {
+              "number": 39
+            },
+            "end": {
+              "number": 40
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

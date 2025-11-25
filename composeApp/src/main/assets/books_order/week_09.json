@@ -1,103 +1,117 @@
 {
   "week": 9,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 8
-          },
-          "end": {
-            "number": 10
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 8
+            },
+            "end": {
+              "number": 10
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 11
-          },
-          "end": {
-            "number": 13
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 11
+            },
+            "end": {
+              "number": 13
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 14
-          },
-          "end": {
-            "number": 16
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 14
+            },
+            "end": {
+              "number": 16
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 17
-          },
-          "end": {
-            "number": 20
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 17
+            },
+            "end": {
+              "number": 20
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 21
-          },
-          "end": {
-            "number": 23
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 21
+            },
+            "end": {
+              "number": 23
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 24
-          },
-          "end": {
-            "number": 27
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 24
+            },
+            "end": {
+              "number": 27
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "DEU",
-        "chapters": {
-          "start": {
-            "number": 28
-          },
-          "end": {
-            "number": 29
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "DEU",
+          "chapters": {
+            "start": {
+              "number": 28
+            },
+            "end": {
+              "number": 29
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

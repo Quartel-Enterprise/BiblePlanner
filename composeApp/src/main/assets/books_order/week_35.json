@@ -1,103 +1,117 @@
 {
   "week": 35,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 4
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 4
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 5
-          },
-          "end": {
-            "number": 8
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 5
+            },
+            "end": {
+              "number": 8
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 9
-          },
-          "end": {
-            "number": 12
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 9
+            },
+            "end": {
+              "number": 12
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 13
-          },
-          "end": {
-            "number": 15
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 13
+            },
+            "end": {
+              "number": 15
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 16
-          },
-          "end": {
-            "number": 17
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 16
+            },
+            "end": {
+              "number": 17
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 18
-          },
-          "end": {
-            "number": 19
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 18
+            },
+            "end": {
+              "number": 19
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "EZK",
-        "chapters": {
-          "start": {
-            "number": 20
-          },
-          "end": {
-            "number": 21
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "EZK",
+          "chapters": {
+            "start": {
+              "number": 20
+            },
+            "end": {
+              "number": 21
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

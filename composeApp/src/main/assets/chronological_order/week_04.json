@@ -1,103 +1,117 @@
 {
   "week": 4,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 30
-          },
-          "end": {
-            "number": 31
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 30
+            },
+            "end": {
+              "number": 31
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 32
-          },
-          "end": {
-            "number": 34
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 32
+            },
+            "end": {
+              "number": 34
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 35
-          },
-          "end": {
-            "number": 37
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 35
+            },
+            "end": {
+              "number": 37
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 38
-          },
-          "end": {
-            "number": 40
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 38
+            },
+            "end": {
+              "number": 40
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 41
-          },
-          "end": {
-            "number": 42
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 41
+            },
+            "end": {
+              "number": 42
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 43
-          },
-          "end": {
-            "number": 45
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 43
+            },
+            "end": {
+              "number": 45
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "GEN",
-        "chapters": {
-          "start": {
-            "number": 46
-          },
-          "end": {
-            "number": 47
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "GEN",
+          "chapters": {
+            "start": {
+              "number": 46
+            },
+            "end": {
+              "number": 47
+            }
           }
         }
-      }
-    ]
+      ]
+    }
   ]
 }

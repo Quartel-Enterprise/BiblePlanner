@@ -1,145 +1,156 @@
 {
   "week": 34,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "HAB",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 3
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "HAB",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 3
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "JER",
-        "chapters": {
-          "start": {
-            "number": 41
-          },
-          "end": {
-            "number": 45
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "JER",
+          "chapters": {
+            "start": {
+              "number": 41
+            },
+            "end": {
+              "number": 45
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "JER",
-        "chapters": {
-          "start": {
-            "number": 46
-          },
-          "end": {
-            "number": 48
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "JER",
+          "chapters": {
+            "start": {
+              "number": 46
+            },
+            "end": {
+              "number": 48
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "JER",
-        "chapters": {
-          "start": {
-            "number": 49
-          },
-          "end": {
-            "number": 50
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "JER",
+          "chapters": {
+            "start": {
+              "number": 49
+            },
+            "end": {
+              "number": 50
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "JER",
-        "chapters": {
-          "start": {
-            "number": 51
-          },
-          "end": {
-            "number": 52
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "JER",
+          "chapters": {
+            "start": {
+              "number": 51
+            },
+            "end": {
+              "number": 52
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "LAM",
-        "chapters": {
-          "start": {
-            "number": 1
-          },
-          "end": {
-            "number": 2
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "LAM",
+          "chapters": {
+            "start": {
+              "number": 1
+            },
+            "end": {
+              "number": 2
+            }
+          }
+        },
+        {
+          "name": "LAM",
+          "chapters": {
+            "start": {
+              "number": 3,
+              "verse": 1
+            },
+            "end": {
+              "number": 3,
+              "verse": 36
+            }
           }
         }
-      },
-      {
-        "day": 6,
-        "book": "LAM",
-        "chapters": {
-          "start": {
-            "number": 3,
-            "verse": 1
-          },
-          "end": {
-            "number": 3,
-            "verse": 36
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "LAM",
+          "chapters": {
+            "start": {
+              "number": 3,
+              "verse": 37
+            },
+            "end": {
+              "number": 3,
+              "verse": 66
+            }
+          }
+        },
+        {
+          "name": "LAM",
+          "chapters": {
+            "start": {
+              "number": 4
+            },
+            "end": {
+              "number": 4
+            }
+          }
+        },
+        {
+          "name": "LAM",
+          "chapters": {
+            "start": {
+              "number": 5,
+              "verse": 1
+            },
+            "end": {
+              "number": 5,
+              "verse": 22
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "LAM",
-        "chapters": {
-          "start": {
-            "number": 3,
-            "verse": 37
-          },
-          "end": {
-            "number": 3,
-            "verse": 66
-          }
-        }
-      },
-      {
-        "day": 7,
-        "book": "LAM",
-        "chapters": {
-          "start": {
-            "number": 4
-          },
-          "end": {
-            "number": 4
-          }
-        }
-      },
-      {
-        "day": 7,
-        "book": "LAM",
-        "chapters": {
-          "start": {
-            "number": 5,
-            "verse": 1
-          },
-          "end": {
-            "number": 5,
-            "verse": 22
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }

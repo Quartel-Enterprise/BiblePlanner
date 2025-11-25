@@ -1,259 +1,260 @@
 {
   "week": 20,
   "days": [
-    [
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 32
-          },
-          "end": {
-            "number": 32
+    {
+      "day": 1,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 32
+            },
+            "end": {
+              "number": 32
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 51
+            },
+            "end": {
+              "number": 51
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 86
+            },
+            "end": {
+              "number": 86
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 122
+            },
+            "end": {
+              "number": 122
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 51
-          },
-          "end": {
-            "number": 51
+      ]
+    },
+    {
+      "day": 2,
+      "books": [
+        {
+          "name": "2SA",
+          "chapters": {
+            "start": {
+              "number": 13
+            },
+            "end": {
+              "number": 15
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 86
-          },
-          "end": {
-            "number": 86
+      ]
+    },
+    {
+      "day": 3,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 3
+            },
+            "end": {
+              "number": 4
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 12
+            },
+            "end": {
+              "number": 13
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 28
+            },
+            "end": {
+              "number": 28
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 55
+            },
+            "end": {
+              "number": 55
+            }
           }
         }
-      },
-      {
-        "day": 1,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 122
-          },
-          "end": {
-            "number": 122
+      ]
+    },
+    {
+      "day": 4,
+      "books": [
+        {
+          "name": "2SA",
+          "chapters": {
+            "start": {
+              "number": 16
+            },
+            "end": {
+              "number": 18
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 2,
-        "book": "2SA",
-        "chapters": {
-          "start": {
-            "number": 13
-          },
-          "end": {
-            "number": 15
+      ]
+    },
+    {
+      "day": 5,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 26
+            },
+            "end": {
+              "number": 26
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 40
+            },
+            "end": {
+              "number": 40
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 58
+            },
+            "end": {
+              "number": 58
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 61
+            },
+            "end": {
+              "number": 61
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 62
+            },
+            "end": {
+              "number": 62
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 64
+            },
+            "end": {
+              "number": 64
+            }
           }
         }
-      }
-    ],
-    [
-      {
-        "day": 3,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 3
-          },
-          "end": {
-            "number": 4
+      ]
+    },
+    {
+      "day": 6,
+      "books": [
+        {
+          "name": "2SA",
+          "chapters": {
+            "start": {
+              "number": 19
+            },
+            "end": {
+              "number": 21
+            }
           }
         }
-      },
-      {
-        "day": 3,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 12
-          },
-          "end": {
-            "number": 13
+      ]
+    },
+    {
+      "day": 7,
+      "books": [
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 5
+            },
+            "end": {
+              "number": 5
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 38
+            },
+            "end": {
+              "number": 38
+            }
+          }
+        },
+        {
+          "name": "PSA",
+          "chapters": {
+            "start": {
+              "number": 41
+            },
+            "end": {
+              "number": 42
+            }
           }
         }
-      },
-      {
-        "day": 3,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 28
-          },
-          "end": {
-            "number": 28
-          }
-        }
-      },
-      {
-        "day": 3,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 55
-          },
-          "end": {
-            "number": 55
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 4,
-        "book": "2SA",
-        "chapters": {
-          "start": {
-            "number": 16
-          },
-          "end": {
-            "number": 18
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 26
-          },
-          "end": {
-            "number": 26
-          }
-        }
-      },
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 40
-          },
-          "end": {
-            "number": 40
-          }
-        }
-      },
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 58
-          },
-          "end": {
-            "number": 58
-          }
-        }
-      },
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 61
-          },
-          "end": {
-            "number": 61
-          }
-        }
-      },
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 62
-          },
-          "end": {
-            "number": 62
-          }
-        }
-      },
-      {
-        "day": 5,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 64
-          },
-          "end": {
-            "number": 64
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 6,
-        "book": "2SA",
-        "chapters": {
-          "start": {
-            "number": 19
-          },
-          "end": {
-            "number": 21
-          }
-        }
-      }
-    ],
-    [
-      {
-        "day": 7,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 5
-          },
-          "end": {
-            "number": 5
-          }
-        }
-      },
-      {
-        "day": 7,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 38
-          },
-          "end": {
-            "number": 38
-          }
-        }
-      },
-      {
-        "day": 7,
-        "book": "PSA",
-        "chapters": {
-          "start": {
-            "number": 41
-          },
-          "end": {
-            "number": 42
-          }
-        }
-      }
-    ]
+      ]
+    }
   ]
 }
