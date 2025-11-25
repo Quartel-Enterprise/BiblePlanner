@@ -1,0 +1,62 @@
+{
+  "HOS": {
+    "chapters": [
+      {
+        "number": 1,
+        "verses": 11
+      },
+      {
+        "number": 2,
+        "verses": 23
+      },
+      {
+        "number": 3,
+        "verses": 5
+      },
+      {
+        "number": 4,
+        "verses": 19
+      },
+      {
+        "number": 5,
+        "verses": 15
+      },
+      {
+        "number": 6,
+        "verses": 11
+      },
+      {
+        "number": 7,
+        "verses": 16
+      },
+      {
+        "number": 8,
+        "verses": 14
+      },
+      {
+        "number": 9,
+        "verses": 17
+      },
+      {
+        "number": 10,
+        "verses": 15
+      },
+      {
+        "number": 11,
+        "verses": 12
+      },
+      {
+        "number": 12,
+        "verses": 14
+      },
+      {
+        "number": 13,
+        "verses": 16
+      },
+      {
+        "number": 14,
+        "verses": 9
+      }
+    ]
+  }
+}
