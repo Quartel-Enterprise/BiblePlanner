@@ -4,6 +4,5 @@ plugins {
 }
 
 android {
-    namespace = "quare.software.bibleplanner.ui.theme"
+    namespace = "com.quare.bibleplanner.ui.theme"
 }
-

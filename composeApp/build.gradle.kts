@@ -8,9 +8,9 @@ plugins {
 
 // Override namespace and applicationId
 android {
-    namespace = "quare.software.bibleplanner"
+    namespace = "com.quare.bibleplanner"
     defaultConfig {
-        applicationId = "quare.software.bibleplanner"
+        applicationId = "com.quare.bibleplanner"
     }
 }
 
@@ -27,11 +27,11 @@ kotlin {
 // Override compose.desktop configuration
 compose.desktop {
     application {
-        mainClass = "quare.software.bibleplanner.MainKt"
+        mainClass = "com.quare.bibleplanner.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "quare.software.bibleplanner"
+            packageName = "com.quare.bibleplanner"
             packageVersion = "1.0.0"
         }
     }

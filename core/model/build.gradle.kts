@@ -3,6 +3,5 @@ plugins {
 }
 
 android {
-    namespace = "quare.software.bibleplanner.core.model"
+    namespace = "com.quare.bibleplanner.core.model"
 }
-
