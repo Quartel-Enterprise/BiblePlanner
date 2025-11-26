@@ -24,4 +24,3 @@ private fun getColorScheme(isDarkTheme: Boolean): ColorScheme = if (isDarkTheme)
 } else {
     lightScheme
 }
-
