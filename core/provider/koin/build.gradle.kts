@@ -3,5 +3,5 @@ plugins {
 }
 
 android {
-    namespace = "quare.software.bibleplanner.core.provider.koin"
+    namespace = "com.quare.bibleplanner.core.provider.koin"
 }
