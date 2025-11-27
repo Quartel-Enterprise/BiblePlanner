@@ -1,34 +1,30 @@
-{
-  "MIC": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 16
-      },
-      {
-        "number": 2,
-        "verses": 13
-      },
-      {
-        "number": 3,
-        "verses": 12
-      },
-      {
-        "number": 4,
-        "verses": 13
-      },
-      {
-        "number": 5,
-        "verses": 15
-      },
-      {
-        "number": 6,
-        "verses": 16
-      },
-      {
-        "number": 7,
-        "verses": 20
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 16
+  },
+  {
+    "number": 2,
+    "verses": 13
+  },
+  {
+    "number": 3,
+    "verses": 12
+  },
+  {
+    "number": 4,
+    "verses": 13
+  },
+  {
+    "number": 5,
+    "verses": 15
+  },
+  {
+    "number": 6,
+    "verses": 16
+  },
+  {
+    "number": 7,
+    "verses": 20
   }
-}
+]

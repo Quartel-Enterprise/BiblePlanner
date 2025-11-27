@@ -32,3 +32,7 @@ max_line_length = off
 indent_style = space
 indent_size = 4
 
+[**/generated/**]
+generated_code = true
+ij_formatter_enabled = false
+ktlint = disabled

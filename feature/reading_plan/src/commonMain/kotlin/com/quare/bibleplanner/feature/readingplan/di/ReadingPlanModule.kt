@@ -6,7 +6,7 @@ import org.koin.core.module.dsl.factoryOf
 import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.module
 
-val ReadingPlanModule = module {
+val readingPlanModule = module {
     viewModelOf(::ReadingPlanViewModel)
     factoryOf(::ReadingPlanStateFactory)
 }

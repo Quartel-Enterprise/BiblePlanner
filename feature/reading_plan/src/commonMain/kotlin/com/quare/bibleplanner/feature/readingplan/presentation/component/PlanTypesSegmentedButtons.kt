@@ -10,7 +10,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import bibleplanner.feature.reading_plan.generated.resources.Res
 import bibleplanner.feature.reading_plan.generated.resources.book_order
 import bibleplanner.feature.reading_plan.generated.resources.chronological_order
-import com.quare.bibleplanner.feature.readingplan.domain.model.ReadingPlanType
+import com.quare.bibleplanner.core.model.plan.ReadingPlanType
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanPresentationModel
 import org.jetbrains.compose.resources.stringResource
 

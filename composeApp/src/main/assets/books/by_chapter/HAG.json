@@ -1,14 +1,10 @@
-{
-  "HAG": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 15
-      },
-      {
-        "number": 2,
-        "verses": 23
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 15
+  },
+  {
+    "number": 2,
+    "verses": 23
   }
-}
+]

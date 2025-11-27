@@ -1,16 +1,36 @@
 plugins {
-    alias(libs.plugins.kotlinMultiplatformConvention)
+    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.androidCommonConfig)
 }
 
 kotlin {
+    androidTarget()
+
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64(),
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "KoinInitializer"
+            isStatic = true
+        }
+    }
+
+    jvm()
+
     sourceSets {
         commonMain.dependencies {
-            // Koin
-            implementation(project.dependencies.platform(libs.koinBom))
-            implementation(libs.koinCore)
+            // Core
+            implementation(projects.core.provider.room)
+            implementation(projects.core.books)
 
             // Features
             implementation(projects.feature.readingPlan)
+
+            // Koin
+            implementation(project.dependencies.platform(libs.koinBom))
+            implementation(libs.koinCore)
         }
     }
 }

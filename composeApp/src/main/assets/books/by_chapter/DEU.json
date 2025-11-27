@@ -1,142 +1,138 @@
-{
-  "DEU": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 46
-      },
-      {
-        "number": 2,
-        "verses": 37
-      },
-      {
-        "number": 3,
-        "verses": 29
-      },
-      {
-        "number": 4,
-        "verses": 49
-      },
-      {
-        "number": 5,
-        "verses": 33
-      },
-      {
-        "number": 6,
-        "verses": 25
-      },
-      {
-        "number": 7,
-        "verses": 26
-      },
-      {
-        "number": 8,
-        "verses": 20
-      },
-      {
-        "number": 9,
-        "verses": 29
-      },
-      {
-        "number": 10,
-        "verses": 22
-      },
-      {
-        "number": 11,
-        "verses": 32
-      },
-      {
-        "number": 12,
-        "verses": 31
-      },
-      {
-        "number": 13,
-        "verses": 19
-      },
-      {
-        "number": 14,
-        "verses": 29
-      },
-      {
-        "number": 15,
-        "verses": 23
-      },
-      {
-        "number": 16,
-        "verses": 22
-      },
-      {
-        "number": 17,
-        "verses": 20
-      },
-      {
-        "number": 18,
-        "verses": 22
-      },
-      {
-        "number": 19,
-        "verses": 21
-      },
-      {
-        "number": 20,
-        "verses": 20
-      },
-      {
-        "number": 21,
-        "verses": 23
-      },
-      {
-        "number": 22,
-        "verses": 30
-      },
-      {
-        "number": 23,
-        "verses": 25
-      },
-      {
-        "number": 24,
-        "verses": 22
-      },
-      {
-        "number": 25,
-        "verses": 19
-      },
-      {
-        "number": 26,
-        "verses": 19
-      },
-      {
-        "number": 27,
-        "verses": 26
-      },
-      {
-        "number": 28,
-        "verses": 68
-      },
-      {
-        "number": 29,
-        "verses": 29
-      },
-      {
-        "number": 30,
-        "verses": 20
-      },
-      {
-        "number": 31,
-        "verses": 30
-      },
-      {
-        "number": 32,
-        "verses": 52
-      },
-      {
-        "number": 33,
-        "verses": 29
-      },
-      {
-        "number": 34,
-        "verses": 12
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 46
+  },
+  {
+    "number": 2,
+    "verses": 37
+  },
+  {
+    "number": 3,
+    "verses": 29
+  },
+  {
+    "number": 4,
+    "verses": 49
+  },
+  {
+    "number": 5,
+    "verses": 33
+  },
+  {
+    "number": 6,
+    "verses": 25
+  },
+  {
+    "number": 7,
+    "verses": 26
+  },
+  {
+    "number": 8,
+    "verses": 20
+  },
+  {
+    "number": 9,
+    "verses": 29
+  },
+  {
+    "number": 10,
+    "verses": 22
+  },
+  {
+    "number": 11,
+    "verses": 32
+  },
+  {
+    "number": 12,
+    "verses": 31
+  },
+  {
+    "number": 13,
+    "verses": 19
+  },
+  {
+    "number": 14,
+    "verses": 29
+  },
+  {
+    "number": 15,
+    "verses": 23
+  },
+  {
+    "number": 16,
+    "verses": 22
+  },
+  {
+    "number": 17,
+    "verses": 20
+  },
+  {
+    "number": 18,
+    "verses": 22
+  },
+  {
+    "number": 19,
+    "verses": 21
+  },
+  {
+    "number": 20,
+    "verses": 20
+  },
+  {
+    "number": 21,
+    "verses": 23
+  },
+  {
+    "number": 22,
+    "verses": 30
+  },
+  {
+    "number": 23,
+    "verses": 25
+  },
+  {
+    "number": 24,
+    "verses": 22
+  },
+  {
+    "number": 25,
+    "verses": 19
+  },
+  {
+    "number": 26,
+    "verses": 19
+  },
+  {
+    "number": 27,
+    "verses": 26
+  },
+  {
+    "number": 28,
+    "verses": 68
+  },
+  {
+    "number": 29,
+    "verses": 29
+  },
+  {
+    "number": 30,
+    "verses": 20
+  },
+  {
+    "number": 31,
+    "verses": 30
+  },
+  {
+    "number": 32,
+    "verses": 52
+  },
+  {
+    "number": 33,
+    "verses": 29
+  },
+  {
+    "number": 34,
+    "verses": 12
   }
-}
+]

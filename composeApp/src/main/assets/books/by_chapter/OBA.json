@@ -1,10 +1,6 @@
-{
-  "OBA": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 21
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 21
   }
-}
+]

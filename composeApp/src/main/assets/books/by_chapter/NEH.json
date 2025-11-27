@@ -1,58 +1,54 @@
-{
-  "NEH": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 11
-      },
-      {
-        "number": 2,
-        "verses": 20
-      },
-      {
-        "number": 3,
-        "verses": 32
-      },
-      {
-        "number": 4,
-        "verses": 23
-      },
-      {
-        "number": 5,
-        "verses": 19
-      },
-      {
-        "number": 6,
-        "verses": 19
-      },
-      {
-        "number": 7,
-        "verses": 73
-      },
-      {
-        "number": 8,
-        "verses": 18
-      },
-      {
-        "number": 9,
-        "verses": 38
-      },
-      {
-        "number": 10,
-        "verses": 39
-      },
-      {
-        "number": 11,
-        "verses": 36
-      },
-      {
-        "number": 12,
-        "verses": 47
-      },
-      {
-        "number": 13,
-        "verses": 31
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 11
+  },
+  {
+    "number": 2,
+    "verses": 20
+  },
+  {
+    "number": 3,
+    "verses": 32
+  },
+  {
+    "number": 4,
+    "verses": 23
+  },
+  {
+    "number": 5,
+    "verses": 19
+  },
+  {
+    "number": 6,
+    "verses": 19
+  },
+  {
+    "number": 7,
+    "verses": 73
+  },
+  {
+    "number": 8,
+    "verses": 18
+  },
+  {
+    "number": 9,
+    "verses": 38
+  },
+  {
+    "number": 10,
+    "verses": 39
+  },
+  {
+    "number": 11,
+    "verses": 36
+  },
+  {
+    "number": 12,
+    "verses": 47
+  },
+  {
+    "number": 13,
+    "verses": 31
   }
-}
+]

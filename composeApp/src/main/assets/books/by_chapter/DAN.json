@@ -1,54 +1,50 @@
-{
-  "DAN": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 21
-      },
-      {
-        "number": 2,
-        "verses": 49
-      },
-      {
-        "number": 3,
-        "verses": 33
-      },
-      {
-        "number": 4,
-        "verses": 34
-      },
-      {
-        "number": 5,
-        "verses": 30
-      },
-      {
-        "number": 6,
-        "verses": 28
-      },
-      {
-        "number": 7,
-        "verses": 28
-      },
-      {
-        "number": 8,
-        "verses": 27
-      },
-      {
-        "number": 9,
-        "verses": 27
-      },
-      {
-        "number": 10,
-        "verses": 21
-      },
-      {
-        "number": 11,
-        "verses": 45
-      },
-      {
-        "number": 12,
-        "verses": 13
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 21
+  },
+  {
+    "number": 2,
+    "verses": 49
+  },
+  {
+    "number": 3,
+    "verses": 33
+  },
+  {
+    "number": 4,
+    "verses": 34
+  },
+  {
+    "number": 5,
+    "verses": 30
+  },
+  {
+    "number": 6,
+    "verses": 28
+  },
+  {
+    "number": 7,
+    "verses": 28
+  },
+  {
+    "number": 8,
+    "verses": 27
+  },
+  {
+    "number": 9,
+    "verses": 27
+  },
+  {
+    "number": 10,
+    "verses": 21
+  },
+  {
+    "number": 11,
+    "verses": 45
+  },
+  {
+    "number": 12,
+    "verses": 13
   }
-}
+]
