@@ -1,90 +1,86 @@
-{
-  "JDG": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 36
-      },
-      {
-        "number": 2,
-        "verses": 23
-      },
-      {
-        "number": 3,
-        "verses": 31
-      },
-      {
-        "number": 4,
-        "verses": 24
-      },
-      {
-        "number": 5,
-        "verses": 31
-      },
-      {
-        "number": 6,
-        "verses": 40
-      },
-      {
-        "number": 7,
-        "verses": 25
-      },
-      {
-        "number": 8,
-        "verses": 35
-      },
-      {
-        "number": 9,
-        "verses": 57
-      },
-      {
-        "number": 10,
-        "verses": 18
-      },
-      {
-        "number": 11,
-        "verses": 40
-      },
-      {
-        "number": 12,
-        "verses": 15
-      },
-      {
-        "number": 13,
-        "verses": 25
-      },
-      {
-        "number": 14,
-        "verses": 20
-      },
-      {
-        "number": 15,
-        "verses": 20
-      },
-      {
-        "number": 16,
-        "verses": 31
-      },
-      {
-        "number": 17,
-        "verses": 13
-      },
-      {
-        "number": 18,
-        "verses": 31
-      },
-      {
-        "number": 19,
-        "verses": 30
-      },
-      {
-        "number": 20,
-        "verses": 48
-      },
-      {
-        "number": 21,
-        "verses": 25
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 36
+  },
+  {
+    "number": 2,
+    "verses": 23
+  },
+  {
+    "number": 3,
+    "verses": 31
+  },
+  {
+    "number": 4,
+    "verses": 24
+  },
+  {
+    "number": 5,
+    "verses": 31
+  },
+  {
+    "number": 6,
+    "verses": 40
+  },
+  {
+    "number": 7,
+    "verses": 25
+  },
+  {
+    "number": 8,
+    "verses": 35
+  },
+  {
+    "number": 9,
+    "verses": 57
+  },
+  {
+    "number": 10,
+    "verses": 18
+  },
+  {
+    "number": 11,
+    "verses": 40
+  },
+  {
+    "number": 12,
+    "verses": 15
+  },
+  {
+    "number": 13,
+    "verses": 25
+  },
+  {
+    "number": 14,
+    "verses": 20
+  },
+  {
+    "number": 15,
+    "verses": 20
+  },
+  {
+    "number": 16,
+    "verses": 31
+  },
+  {
+    "number": 17,
+    "verses": 13
+  },
+  {
+    "number": 18,
+    "verses": 31
+  },
+  {
+    "number": 19,
+    "verses": 30
+  },
+  {
+    "number": 20,
+    "verses": 48
+  },
+  {
+    "number": 21,
+    "verses": 25
   }
-}
+]

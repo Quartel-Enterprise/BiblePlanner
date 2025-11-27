@@ -1,7 +1,13 @@
 package com.quare.bibleplanner.core.provider.koin
 
-import com.quare.bibleplanner.feature.readingplan.di.ReadingPlanModule
+import com.quare.bibleplanner.core.books.di.booksModule
+import com.quare.bibleplanner.core.provider.room.di.roomModule
+import com.quare.bibleplanner.feature.readingplan.di.readingPlanModule
 
 object CommonKoinUtils {
-    val modules = listOf(ReadingPlanModule)
+    val modules = listOf(
+        booksModule,
+        readingPlanModule,
+        roomModule,
+    )
 }

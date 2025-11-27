@@ -1,26 +1,22 @@
-{
-  "1JN": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 10
-      },
-      {
-        "number": 2,
-        "verses": 29
-      },
-      {
-        "number": 3,
-        "verses": 24
-      },
-      {
-        "number": 4,
-        "verses": 21
-      },
-      {
-        "number": 5,
-        "verses": 21
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 10
+  },
+  {
+    "number": 2,
+    "verses": 29
+  },
+  {
+    "number": 3,
+    "verses": 24
+  },
+  {
+    "number": 4,
+    "verses": 21
+  },
+  {
+    "number": 5,
+    "verses": 21
   }
-}
+]

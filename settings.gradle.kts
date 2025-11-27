@@ -2,6 +2,7 @@ rootProject.name = "BiblePlanner"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             mavenContent {
@@ -36,5 +37,8 @@ include(":composeApp")
 include(":ui:theme")
 include(":core:model")
 include(":core:navigation")
+include(":core:books")
+include(":core:plan")
 include(":core:provider:koin")
+include(":core:provider:room")
 include(":feature:reading_plan")

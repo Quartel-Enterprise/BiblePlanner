@@ -1,58 +1,54 @@
-{
-  "2CO": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 24
-      },
-      {
-        "number": 2,
-        "verses": 17
-      },
-      {
-        "number": 3,
-        "verses": 18
-      },
-      {
-        "number": 4,
-        "verses": 18
-      },
-      {
-        "number": 5,
-        "verses": 21
-      },
-      {
-        "number": 6,
-        "verses": 18
-      },
-      {
-        "number": 7,
-        "verses": 16
-      },
-      {
-        "number": 8,
-        "verses": 24
-      },
-      {
-        "number": 9,
-        "verses": 15
-      },
-      {
-        "number": 10,
-        "verses": 18
-      },
-      {
-        "number": 11,
-        "verses": 33
-      },
-      {
-        "number": 12,
-        "verses": 21
-      },
-      {
-        "number": 13,
-        "verses": 14
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 24
+  },
+  {
+    "number": 2,
+    "verses": 17
+  },
+  {
+    "number": 3,
+    "verses": 18
+  },
+  {
+    "number": 4,
+    "verses": 18
+  },
+  {
+    "number": 5,
+    "verses": 21
+  },
+  {
+    "number": 6,
+    "verses": 18
+  },
+  {
+    "number": 7,
+    "verses": 16
+  },
+  {
+    "number": 8,
+    "verses": 24
+  },
+  {
+    "number": 9,
+    "verses": 15
+  },
+  {
+    "number": 10,
+    "verses": 18
+  },
+  {
+    "number": 11,
+    "verses": 33
+  },
+  {
+    "number": 12,
+    "verses": 21
+  },
+  {
+    "number": 13,
+    "verses": 14
   }
-}
+]

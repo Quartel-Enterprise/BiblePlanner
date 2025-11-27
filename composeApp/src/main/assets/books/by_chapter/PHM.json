@@ -1,10 +1,6 @@
-{
-  "PHM": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 25
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 25
   }
-}
+]

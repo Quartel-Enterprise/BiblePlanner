@@ -1,26 +1,22 @@
-{
-  "JAS": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 27
-      },
-      {
-        "number": 2,
-        "verses": 26
-      },
-      {
-        "number": 3,
-        "verses": 18
-      },
-      {
-        "number": 4,
-        "verses": 17
-      },
-      {
-        "number": 5,
-        "verses": 20
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 27
+  },
+  {
+    "number": 2,
+    "verses": 26
+  },
+  {
+    "number": 3,
+    "verses": 18
+  },
+  {
+    "number": 4,
+    "verses": 17
+  },
+  {
+    "number": 5,
+    "verses": 20
   }
-}
+]

@@ -1,102 +1,98 @@
-{
-  "LUK": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 80
-      },
-      {
-        "number": 2,
-        "verses": 52
-      },
-      {
-        "number": 3,
-        "verses": 38
-      },
-      {
-        "number": 4,
-        "verses": 44
-      },
-      {
-        "number": 5,
-        "verses": 39
-      },
-      {
-        "number": 6,
-        "verses": 49
-      },
-      {
-        "number": 7,
-        "verses": 50
-      },
-      {
-        "number": 8,
-        "verses": 56
-      },
-      {
-        "number": 9,
-        "verses": 62
-      },
-      {
-        "number": 10,
-        "verses": 42
-      },
-      {
-        "number": 11,
-        "verses": 54
-      },
-      {
-        "number": 12,
-        "verses": 59
-      },
-      {
-        "number": 13,
-        "verses": 35
-      },
-      {
-        "number": 14,
-        "verses": 35
-      },
-      {
-        "number": 15,
-        "verses": 32
-      },
-      {
-        "number": 16,
-        "verses": 31
-      },
-      {
-        "number": 17,
-        "verses": 37
-      },
-      {
-        "number": 18,
-        "verses": 43
-      },
-      {
-        "number": 19,
-        "verses": 48
-      },
-      {
-        "number": 20,
-        "verses": 47
-      },
-      {
-        "number": 21,
-        "verses": 38
-      },
-      {
-        "number": 22,
-        "verses": 71
-      },
-      {
-        "number": 23,
-        "verses": 56
-      },
-      {
-        "number": 24,
-        "verses": 53
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 80
+  },
+  {
+    "number": 2,
+    "verses": 52
+  },
+  {
+    "number": 3,
+    "verses": 38
+  },
+  {
+    "number": 4,
+    "verses": 44
+  },
+  {
+    "number": 5,
+    "verses": 39
+  },
+  {
+    "number": 6,
+    "verses": 49
+  },
+  {
+    "number": 7,
+    "verses": 50
+  },
+  {
+    "number": 8,
+    "verses": 56
+  },
+  {
+    "number": 9,
+    "verses": 62
+  },
+  {
+    "number": 10,
+    "verses": 42
+  },
+  {
+    "number": 11,
+    "verses": 54
+  },
+  {
+    "number": 12,
+    "verses": 59
+  },
+  {
+    "number": 13,
+    "verses": 35
+  },
+  {
+    "number": 14,
+    "verses": 35
+  },
+  {
+    "number": 15,
+    "verses": 32
+  },
+  {
+    "number": 16,
+    "verses": 31
+  },
+  {
+    "number": 17,
+    "verses": 37
+  },
+  {
+    "number": 18,
+    "verses": 43
+  },
+  {
+    "number": 19,
+    "verses": 48
+  },
+  {
+    "number": 20,
+    "verses": 47
+  },
+  {
+    "number": 21,
+    "verses": 38
+  },
+  {
+    "number": 22,
+    "verses": 71
+  },
+  {
+    "number": 23,
+    "verses": 56
+  },
+  {
+    "number": 24,
+    "verses": 53
   }
-}
+]

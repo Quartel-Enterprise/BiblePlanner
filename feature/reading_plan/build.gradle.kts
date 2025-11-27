@@ -1,6 +1,9 @@
 plugins {
+    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.composeMultiplatformConvention)
+    alias(libs.plugins.androidCommonConfig)
 }
 
 android {
@@ -8,6 +11,20 @@ android {
 }
 
 kotlin {
+
+    androidTarget()
+
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64(),
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "FeatureReadingPlan"
+            isStatic = true
+        }
+    }
+    jvm()
+
     sourceSets {
         commonMain.dependencies {
             // Core

@@ -1,42 +1,38 @@
-{
-  "AMO": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 15
-      },
-      {
-        "number": 2,
-        "verses": 16
-      },
-      {
-        "number": 3,
-        "verses": 15
-      },
-      {
-        "number": 4,
-        "verses": 13
-      },
-      {
-        "number": 5,
-        "verses": 27
-      },
-      {
-        "number": 6,
-        "verses": 14
-      },
-      {
-        "number": 7,
-        "verses": 17
-      },
-      {
-        "number": 8,
-        "verses": 14
-      },
-      {
-        "number": 9,
-        "verses": 15
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 15
+  },
+  {
+    "number": 2,
+    "verses": 16
+  },
+  {
+    "number": 3,
+    "verses": 15
+  },
+  {
+    "number": 4,
+    "verses": 13
+  },
+  {
+    "number": 5,
+    "verses": 27
+  },
+  {
+    "number": 6,
+    "verses": 14
+  },
+  {
+    "number": 7,
+    "verses": 17
+  },
+  {
+    "number": 8,
+    "verses": 14
+  },
+  {
+    "number": 9,
+    "verses": 15
   }
-}
+]

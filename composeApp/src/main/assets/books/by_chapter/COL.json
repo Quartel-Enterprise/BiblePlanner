@@ -1,22 +1,18 @@
-{
-  "COL": {
-    "chapters": [
-      {
-        "number": 1,
-        "verses": 29
-      },
-      {
-        "number": 2,
-        "verses": 23
-      },
-      {
-        "number": 3,
-        "verses": 25
-      },
-      {
-        "number": 4,
-        "verses": 18
-      }
-    ]
+[
+  {
+    "number": 1,
+    "verses": 29
+  },
+  {
+    "number": 2,
+    "verses": 23
+  },
+  {
+    "number": 3,
+    "verses": 25
+  },
+  {
+    "number": 4,
+    "verses": 18
   }
-}
+]

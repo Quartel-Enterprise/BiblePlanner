@@ -1,9 +1,26 @@
 plugins {
+    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.composeMultiplatform)
+    alias(libs.plugins.androidCommonConfig)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.composeMultiplatformConvention)
 }
 
 kotlin {
+    androidTarget()
+
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64(),
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "UiTheme"
+            isStatic = true
+        }
+    }
+
+    jvm()
+
     sourceSets {
         commonMain.dependencies {
             // Compose

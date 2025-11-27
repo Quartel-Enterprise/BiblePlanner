@@ -1,6 +1,10 @@
 plugins {
+    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.composeMultiplatformConvention)
+    alias(libs.plugins.serialization)
+    alias(libs.plugins.androidCommonConfig)
 }
 
 android {
@@ -8,6 +12,20 @@ android {
 }
 
 kotlin {
+    androidTarget()
+
+    listOf(
+        iosArm64(),
+        iosSimulatorArm64(),
+    ).forEach { iosTarget ->
+        iosTarget.binaries.framework {
+            baseName = "CoreNavigation"
+            isStatic = true
+        }
+    }
+
+    jvm()
+
     sourceSets {
         commonMain.dependencies {
             // Feature
@@ -16,6 +34,7 @@ kotlin {
             // Core
             implementation(projects.core.model)
             implementation(projects.core.provider.koin)
+            implementation(projects.core.provider.room)
 
             // Navigation
             implementation(libs.compose.navigation)
