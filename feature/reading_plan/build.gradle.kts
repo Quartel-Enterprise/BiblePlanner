@@ -2,6 +2,11 @@ plugins {
     alias(libs.plugins.composeCompiler)
     alias(libs.plugins.composeMultiplatformConvention)
 }
+
+android {
+    namespace = "com.quare.bibleplanner.feature.readingplan"
+}
+
 kotlin {
     sourceSets {
         commonMain.dependencies {
@@ -9,6 +14,10 @@ kotlin {
             implementation(projects.core.model)
 
             // Compose
+            implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material3)
+            implementation(compose.ui)
             implementation(compose.components.resources)
 
             // Navigation
@@ -21,7 +30,4 @@ kotlin {
             implementation(libs.koinComposeViewModel)
         }
     }
-}
-android {
-    namespace = "com.quare.bibleplanner.feature.readingplan"
 }
