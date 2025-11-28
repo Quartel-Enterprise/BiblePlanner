@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - '.github/workflows/ktlint.yml'
+      - 'scripts/ci-local.sh'
       - '**/*.kt'
       - '**/*.kts'
       - '.editorconfig'
@@ -13,6 +14,7 @@ on:
       - main
     paths:
       - '.github/workflows/ktlint.yml'
+      - 'scripts/ci-local.sh'
       - '**/*.kt'
       - '**/*.kts'
       - '.editorconfig'
@@ -36,24 +38,13 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Run ktlint check with Gradle
-        run: |
-          ./gradlew ktlintCheck --continue || true
-        continue-on-error: true
+      - name: Make ci-local script executable
+        run: chmod +x ./scripts/ci-local.sh
 
-      - name: Find and merge ktlint checkstyle reports
+      - name: Run ktlint check (same as local)
+        id: ktlint-check
         run: |
-          mkdir -p build
-          # Find all checkstyle reports from subprojects
-          REPORTS=$(find . -path "*/build/reports/ktlint/*/*.xml" -type f 2>/dev/null || true)
-          if [ -n "$REPORTS" ]; then
-            # Use the first report found (or we could merge multiple reports)
-            FIRST_REPORT=$(echo "$REPORTS" | head -1)
-            cp "$FIRST_REPORT" build/ktlint-report.xml
-          else
-            # Create empty report if none found
-            echo '<?xml version="1.0" encoding="UTF-8"?><checkstyle version="4.3"></checkstyle>' > build/ktlint-report.xml
-          fi
+          ./scripts/ci-local.sh
         continue-on-error: true
 
       - name: Annotate ktlint results
@@ -62,4 +53,10 @@ jobs:
           report-path: 'build/**/*.xml'
           ignore-warnings: false
         continue-on-error: false
+
+      - name: Fail if ktlint found errors
+        if: steps.ktlint-check.outcome == 'failure'
+        run: |
+          echo "❌ ktlint found formatting errors. Please run './gradlew ktlintFormat' to fix them."
+          exit 1
 

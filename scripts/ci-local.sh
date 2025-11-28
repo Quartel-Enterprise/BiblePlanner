@@ -33,16 +33,23 @@ echo "🔍 Simulating CI locally..."
 echo "📁 Working directory: $PROJECT_ROOT"
 echo ""
 
-# Check if Java 21 is available
+# Check if Java is available
 if ! command -v java &> /dev/null; then
     echo "❌ Java is not installed. Please install JDK 21 (Temurin distribution recommended)."
     exit 1
 fi
 
-JAVA_VERSION=$(java -version 2>&1 | head -n 1 | cut -d'"' -f2 | sed '/^1\./s///' | cut -d'.' -f1)
-if [ "$JAVA_VERSION" != "21" ]; then
-    echo "⚠️  Warning: Java version is $JAVA_VERSION, but CI uses Java 21"
-    echo "   Consider using Java 21 for consistency with CI"
+# Check Java version (handle different output formats)
+JAVA_VERSION_OUTPUT=$(java -version 2>&1 | head -n 1)
+if echo "$JAVA_VERSION_OUTPUT" | grep -q "version"; then
+    JAVA_VERSION=$(echo "$JAVA_VERSION_OUTPUT" | sed -E 's/.*version "([^"]*)".*/\1/' | sed -E 's/^1\.//' | cut -d'.' -f1)
+    if [ -n "$JAVA_VERSION" ] && [ "$JAVA_VERSION" != "21" ]; then
+        echo "⚠️  Warning: Java version is $JAVA_VERSION, but CI uses Java 21"
+        echo "   Consider using Java 21 for consistency with CI"
+        echo ""
+    fi
+else
+    echo "⚠️  Warning: Could not determine Java version"
     echo ""
 fi
 
@@ -56,10 +63,18 @@ fi
 chmod +x ./gradlew
 
 echo "📋 Running ktlint check..."
+echo "ℹ️  Note: KSP code generation will run automatically via Gradle task dependencies"
+echo "ℹ️  Note: iOS targets are disabled during ktlint to avoid native toolchain requirements"
 echo ""
 
 # Run ktlint check (same as CI)
-./gradlew ktlintCheck --continue || true
+# Use -PskipIosBuild=true to skip iOS compilation during ktlint
+# This prevents failures when iOS KSP tasks are skipped in CI
+# Temporarily disable set -e to capture exit code and still collect reports
+set +e
+./gradlew ktlintCheck -PskipIosBuild=true --continue
+KTLINT_EXIT_CODE=$?
+set -e
 
 echo ""
 echo "📊 Collecting ktlint reports..."
@@ -83,7 +98,14 @@ else
 fi
 
 echo ""
-echo "✨ CI simulation complete!"
+if [ $KTLINT_EXIT_CODE -ne 0 ]; then
+    echo "❌ ktlint found formatting errors. Please run './gradlew ktlintFormat' to fix them."
+    echo ""
+    echo "✨ CI simulation complete (with errors)!"
+    exit $KTLINT_EXIT_CODE
+else
+    echo "✨ CI simulation complete!"
+fi
 echo ""
 echo "To fix ktlint issues, run:"
 echo "  ./gradlew ktlintFormat"
