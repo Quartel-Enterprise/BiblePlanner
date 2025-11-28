@@ -64,12 +64,15 @@ chmod +x ./gradlew
 
 echo "📋 Running ktlint check..."
 echo "ℹ️  Note: KSP code generation will run automatically via Gradle task dependencies"
+echo "ℹ️  Note: iOS targets are disabled during ktlint to avoid native toolchain requirements"
 echo ""
 
 # Run ktlint check (same as CI)
+# Use -PskipIosBuild=true to skip iOS compilation during ktlint
+# This prevents failures when iOS KSP tasks are skipped in CI
 # Temporarily disable set -e to capture exit code and still collect reports
 set +e
-./gradlew ktlintCheck --continue
+./gradlew ktlintCheck -PskipIosBuild=true --continue
 KTLINT_EXIT_CODE=$?
 set -e
 

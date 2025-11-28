@@ -39,6 +39,23 @@ kotlin {
     }
 }
 
+// Skip iOS compilation during ktlint to avoid requiring KSP-generated code for iOS
+// iOS KSP tasks may be skipped in CI without native toolchains, causing compilation failures
+afterEvaluate {
+    // Disable iOS compilation tasks when skipIosBuild property is set
+    // This is used during ktlint to avoid native toolchain requirements
+    val skipIosBuild = project.findProperty("skipIosBuild") == "true"
+
+    if (skipIosBuild) {
+        tasks
+            .matching {
+                it.name.startsWith("compileKotlinIos")
+            }.configureEach {
+                enabled = false
+            }
+    }
+}
+
 android {
     namespace = "com.quare.bibleplanner.core.provider.room"
 }
