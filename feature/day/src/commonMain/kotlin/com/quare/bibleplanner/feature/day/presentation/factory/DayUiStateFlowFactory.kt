@@ -2,6 +2,7 @@ package com.quare.bibleplanner.feature.day.presentation.factory
 
 import com.quare.bibleplanner.core.model.plan.ReadingPlanType
 import com.quare.bibleplanner.feature.day.domain.EditDaySelectableDates
+import com.quare.bibleplanner.feature.day.domain.usecase.ConvertTimestampToDatePickerInitialDateUseCase
 import com.quare.bibleplanner.feature.day.domain.usecase.GetBooksUseCase
 import com.quare.bibleplanner.feature.day.domain.usecase.GetDayDetailsUseCase
 import com.quare.bibleplanner.feature.day.presentation.mapper.ReadDateFormatter
@@ -21,6 +22,7 @@ internal class DayUiStateFlowFactory(
     private val getBooks: GetBooksUseCase,
     private val readDateFormatter: ReadDateFormatter,
     private val editDaySelectableDates: EditDaySelectableDates,
+    private val convertTimestampToDatePickerInitialDate: ConvertTimestampToDatePickerInitialDateUseCase,
 ) {
     fun createUiState(
         weekNumber: Int,
@@ -36,9 +38,11 @@ internal class DayUiStateFlowFactory(
 
             // Calculate initial timestamp and date components
             val currentTimeMillis = Clock.System.now().toEpochMilliseconds()
-            val initialTimestamp = day.readTimestamp ?: currentTimeMillis
+            val savedTimestamp = day.readTimestamp ?: currentTimeMillis
+            // Convert to UTC midnight for DatePicker (DatePicker expects UTC midnight)
+            val initialTimestamp = convertTimestampToDatePickerInitialDate(savedTimestamp)
             val initialDate = Instant
-                .fromEpochMilliseconds(initialTimestamp)
+                .fromEpochMilliseconds(savedTimestamp)
                 .toLocalDateTime(TimeZone.currentSystemDefault())
 
             val datePickerUiState = if (existingDatePickerUiState?.selectableDates != null) {

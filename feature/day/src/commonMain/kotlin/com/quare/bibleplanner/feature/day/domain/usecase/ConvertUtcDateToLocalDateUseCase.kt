@@ -1,7 +1,7 @@
 package com.quare.bibleplanner.feature.day.domain.usecase
 
+import com.quare.bibleplanner.core.utils.toLocalDate
 import kotlinx.datetime.LocalDate
-import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import kotlin.time.ExperimentalTime
@@ -20,11 +20,5 @@ internal class ConvertUtcDateToLocalDateUseCase {
         .fromEpochMilliseconds(utcDateMillis)
         .toLocalDateTime(TimeZone.UTC)
         .toLocalDate()
-
-    private fun LocalDateTime.toLocalDate() = LocalDate(
-        year = year,
-        month = month,
-        day = day
-    )
 }
 
