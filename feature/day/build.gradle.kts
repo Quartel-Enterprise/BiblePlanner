@@ -31,6 +31,7 @@ kotlin {
             implementation(projects.core.books)
             implementation(projects.core.plan)
             implementation(projects.core.model)
+            implementation(projects.core.provider.room)
 
             // UI
             implementation(projects.ui.component)
@@ -46,6 +47,9 @@ kotlin {
             // Navigation
             implementation(libs.compose.navigation)
 
+            // DateTime
+            implementation(libs.kotlinx.datetime)
+
             // Koin
             implementation(project.dependencies.platform(libs.koinBom))
             implementation(libs.koinCore)
@@ -54,4 +58,3 @@ kotlin {
         }
     }
 }
-
