@@ -32,6 +32,9 @@ kotlin {
             implementation(projects.core.plan)
             implementation(projects.core.model)
 
+            // UI
+            implementation(projects.ui.component)
+
             // Compose
             implementation(compose.runtime)
             implementation(compose.foundation)
