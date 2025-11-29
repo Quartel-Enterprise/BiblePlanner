@@ -34,6 +34,7 @@ kotlin {
 
             // UI
             implementation(projects.ui.component)
+            implementation(projects.ui.utils)
 
             // Compose
             implementation(compose.runtime)
