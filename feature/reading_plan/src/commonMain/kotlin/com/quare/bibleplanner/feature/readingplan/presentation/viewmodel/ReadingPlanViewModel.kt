@@ -3,6 +3,7 @@ package com.quare.bibleplanner.feature.readingplan.presentation.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.quare.bibleplanner.core.books.domain.usecase.InitializeBooksIfNeeded
+import com.quare.bibleplanner.core.books.domain.usecase.MarkPassagesReadUseCase
 import com.quare.bibleplanner.core.model.plan.PlansModel
 import com.quare.bibleplanner.core.model.plan.ReadingPlanType
 import com.quare.bibleplanner.core.model.plan.WeekPlanModel
@@ -22,6 +23,7 @@ import kotlinx.coroutines.launch
 internal class ReadingPlanViewModel(
     factory: ReadingPlanStateFactory,
     private val initializeBooksIfNeeded: InitializeBooksIfNeeded,
+    private val markPassagesReadUseCase: MarkPassagesReadUseCase,
     getPlansByWeek: GetPlansByWeekUseCase,
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ReadingPlanUiState> = MutableStateFlow(factory.createLoading())
@@ -64,49 +66,74 @@ internal class ReadingPlanViewModel(
 
     fun onEvent(event: ReadingPlanUiEvent) {
         when (event) {
-            is ReadingPlanUiEvent.OnPlanClick -> _uiState.update { currentUiState ->
-                when (currentUiState) {
-                    is ReadingPlanUiState.Loaded -> {
-                        val plansModel = currentPlansModel ?: return@update currentUiState
-                        val selectedWeeks = when (event.type) {
-                            ReadingPlanType.CHRONOLOGICAL -> plansModel.chronologicalOrder
-                            ReadingPlanType.BOOKS -> plansModel.booksOrder
+            is ReadingPlanUiEvent.OnPlanClick -> {
+                _uiState.update { currentUiState ->
+                    when (currentUiState) {
+                        is ReadingPlanUiState.Loaded -> {
+                            val plansModel = currentPlansModel ?: return@update currentUiState
+                            val selectedWeeks = when (event.type) {
+                                ReadingPlanType.CHRONOLOGICAL -> plansModel.chronologicalOrder
+                                ReadingPlanType.BOOKS -> plansModel.booksOrder
+                            }
+                            val progress = calculateProgress(selectedWeeks)
+                            val weekPresentationModels = createWeekPresentationModels(selectedWeeks)
+
+                            currentUiState.copy(
+                                weekPlans = weekPresentationModels,
+                                selectedReadingPlan = event.type,
+                                progress = progress,
+                            )
                         }
-                        val progress = calculateProgress(selectedWeeks)
-                        val weekPresentationModels = createWeekPresentationModels(selectedWeeks)
 
-                        currentUiState.copy(
-                            weekPlans = weekPresentationModels,
-                            selectedReadingPlan = event.type,
-                            progress = progress,
-                        )
-                    }
-
-                    is ReadingPlanUiState.Loading -> {
-                        currentUiState.copy(selectedReadingPlan = event.type)
+                        is ReadingPlanUiState.Loading -> {
+                            currentUiState.copy(selectedReadingPlan = event.type)
+                        }
                     }
                 }
             }
 
-            is ReadingPlanUiEvent.OnWeekExpandClick -> _uiState.update { currentUiState ->
-                when (currentUiState) {
-                    is ReadingPlanUiState.Loaded -> {
-                        if (expandedWeeks.contains(event.weekNumber)) {
-                            expandedWeeks.remove(event.weekNumber)
-                        } else {
-                            expandedWeeks.add(event.weekNumber)
+            is ReadingPlanUiEvent.OnWeekExpandClick -> {
+                _uiState.update { currentUiState ->
+                    when (currentUiState) {
+                        is ReadingPlanUiState.Loaded -> {
+                            if (expandedWeeks.contains(event.weekNumber)) {
+                                expandedWeeks.remove(event.weekNumber)
+                            } else {
+                                expandedWeeks.add(event.weekNumber)
+                            }
+
+                            val weekPresentationModels = createWeekPresentationModels(
+                                currentUiState.weekPlans.map { it.weekPlan },
+                            )
+
+                            currentUiState.copy(weekPlans = weekPresentationModels)
                         }
 
-                        val weekPresentationModels = createWeekPresentationModels(
-                            currentUiState.weekPlans.map { it.weekPlan },
-                        )
-
-                        currentUiState.copy(weekPlans = weekPresentationModels)
+                        is ReadingPlanUiState.Loading -> {
+                            currentUiState
+                        }
                     }
+                }
+            }
 
-                    is ReadingPlanUiState.Loading -> {
-                        currentUiState
-                    }
+            is ReadingPlanUiEvent.OnDayReadClick -> {
+                val currentUiState = _uiState.value
+                val plansModel = currentPlansModel
+
+                if (currentUiState !is ReadingPlanUiState.Loaded || plansModel == null) {
+                    return
+                }
+
+                val selectedWeeks = when (currentUiState.selectedReadingPlan) {
+                    ReadingPlanType.CHRONOLOGICAL -> plansModel.chronologicalOrder
+                    ReadingPlanType.BOOKS -> plansModel.booksOrder
+                }
+
+                val week = selectedWeeks.find { it.number == event.weekNumber } ?: return
+                val day = week.days.find { it.number == event.dayNumber } ?: return
+
+                viewModelScope.launch {
+                    markPassagesReadUseCase(day.passages)
                 }
             }
         }
@@ -132,6 +159,6 @@ internal class ReadingPlanViewModel(
             week.days.count { it.isRead }
         }
 
-        return readDays.toFloat() / totalDays.toFloat()
+        return 100 * (readDays.toFloat() / totalDays.toFloat())
     }
 }

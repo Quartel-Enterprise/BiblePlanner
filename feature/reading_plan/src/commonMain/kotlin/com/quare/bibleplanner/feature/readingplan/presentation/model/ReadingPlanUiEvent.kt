@@ -10,4 +10,9 @@ internal sealed interface ReadingPlanUiEvent {
     data class OnWeekExpandClick(
         val weekNumber: Int,
     ) : ReadingPlanUiEvent
+
+    data class OnDayReadClick(
+        val dayNumber: Int,
+        val weekNumber: Int,
+    ) : ReadingPlanUiEvent
 }

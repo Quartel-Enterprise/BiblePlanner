@@ -55,9 +55,7 @@ internal fun ReadingPlanContent(
                 WeekPlanItem(
                     modifier = Modifier.fillMaxWidth(),
                     weekPresentation = weekPresentation,
-                    onExpandClick = {
-                        onEvent(ReadingPlanUiEvent.OnWeekExpandClick(weekPresentation.weekPlan.number))
-                    },
+                    onEvent = onEvent,
                 )
             }
 
