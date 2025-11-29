@@ -17,7 +17,7 @@ internal fun DayContent(
         is DayUiState.Loaded -> LoadedDayContent(
             modifier = modifier,
             uiState = uiState,
-            onEvent = onEvent
+            onEvent = onEvent,
         )
     }
 }

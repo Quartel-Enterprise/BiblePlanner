@@ -16,7 +16,7 @@ internal fun LoadedDayContent(
     onEvent: (DayUiEvent) -> Unit,
 ) {
     LazyColumn(
-        modifier = modifier
+        modifier = modifier,
     ) {
         item {
             DayProgress(

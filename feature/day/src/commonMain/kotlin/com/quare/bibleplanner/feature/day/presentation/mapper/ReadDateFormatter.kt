@@ -3,8 +3,8 @@ package com.quare.bibleplanner.feature.day.presentation.mapper
 import kotlinx.datetime.LocalDateTime
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
-import kotlin.time.Instant
 import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 @OptIn(ExperimentalTime::class)
 internal class ReadDateFormatter {
@@ -21,4 +21,3 @@ internal class ReadDateFormatter {
         return "$day $month $year, $hour:$minute"
     }
 }
-

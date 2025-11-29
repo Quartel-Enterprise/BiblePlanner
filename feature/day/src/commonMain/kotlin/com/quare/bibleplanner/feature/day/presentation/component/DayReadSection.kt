@@ -56,7 +56,7 @@ internal fun DayReadSection(
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
                 formattedReadDate = formattedReadDate,
-                onEvent = onEvent
+                onEvent = onEvent,
             )
         }
     }

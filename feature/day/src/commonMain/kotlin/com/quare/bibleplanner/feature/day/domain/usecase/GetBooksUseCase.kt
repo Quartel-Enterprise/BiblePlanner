@@ -9,4 +9,3 @@ class GetBooksUseCase(
 ) {
     operator fun invoke(): Flow<List<BookDataModel>> = booksRepository.getBooksFlow()
 }
-

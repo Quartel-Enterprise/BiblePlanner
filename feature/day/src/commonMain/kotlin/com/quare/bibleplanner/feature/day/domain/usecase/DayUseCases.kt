@@ -7,4 +7,3 @@ internal data class DayUseCases(
     val updateChapterReadStatus: UpdateChapterReadStatusUseCase,
     val updateDayReadTimestamp: UpdateDayReadTimestampUseCase,
 )
-
