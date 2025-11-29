@@ -8,5 +8,9 @@
     <string name="mark_day_as_read">Mark day as read</string>
     <string name="edit">Edit</string>
     <string name="completed_date">Completed date</string>
+    <string name="next">Next</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_time">Select Time</string>
 </resources>
 

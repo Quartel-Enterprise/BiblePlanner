@@ -8,5 +8,9 @@
     <string name="mark_day_as_read">Marcar dia como lido</string>
     <string name="edit">Editar</string>
     <string name="completed_date">Data de conclusão</string>
+    <string name="next">Próximo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_time">Selecionar Hora</string>
 </resources>
 
