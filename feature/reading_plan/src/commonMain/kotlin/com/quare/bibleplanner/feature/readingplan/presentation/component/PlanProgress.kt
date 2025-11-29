@@ -26,6 +26,10 @@ fun PlanProgress(
     Card(modifier = modifier) {
         Column {
             Text(
+                modifier = Modifier.padding(
+                    vertical = 8.dp,
+                    horizontal = 16.dp
+                ),
                 text = stringResource(
                     Res.string.progress_label,
                     if (isLoading) {
@@ -34,8 +38,7 @@ fun PlanProgress(
                         progress.formatProgress()
                     },
                 ),
-                style = MaterialTheme.typography.labelMedium,
-                modifier = Modifier.padding(8.dp),
+                style = MaterialTheme.typography.labelLarge,
             )
             LinearProgressIndicator(
                 modifier = Modifier.fillMaxWidth(),
