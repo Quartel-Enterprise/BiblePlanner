@@ -57,16 +57,6 @@ internal class DayViewModel(
         }
     }
 
-    private fun updateLoadedState(transform: (DayUiState.Loaded) -> DayUiState.Loaded) {
-        _uiState.update { currentState ->
-            if (currentState is DayUiState.Loaded) {
-                transform(currentState)
-            } else {
-                currentState
-            }
-        }
-    }
-
     private fun updateDatePickerState(transform: (DatePickerUiState) -> DatePickerUiState) {
         updateLoadedState { loaded ->
             loaded.copy(
@@ -185,6 +175,16 @@ internal class DayViewModel(
     }
 
     private fun DayUiEvent.OnEditReadDate.toDuration(): Duration = (hour * 60 + minute).minutes
+
+    private fun updateLoadedState(transform: (DayUiState.Loaded) -> DayUiState.Loaded) {
+        _uiState.update { currentState ->
+            if (currentState is DayUiState.Loaded) {
+                transform(currentState)
+            } else {
+                currentState
+            }
+        }
+    }
 
     private fun backToPreviousScreen() {
         viewModelScope.launch {
