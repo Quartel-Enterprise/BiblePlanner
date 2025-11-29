@@ -22,7 +22,7 @@ internal sealed interface DayUiEvent {
     data object OnDismissPicker : DayUiEvent
 
     data class OnDateSelected(
-        val dateMillis: Long,
+        val utcDateMillis: Long,
     ) : DayUiEvent
 
     data object OnBackClick : DayUiEvent

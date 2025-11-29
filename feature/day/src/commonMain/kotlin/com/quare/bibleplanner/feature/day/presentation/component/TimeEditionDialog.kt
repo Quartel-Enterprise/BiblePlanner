@@ -44,8 +44,8 @@ internal fun TimeEditionDialog(
             confirmButton = {
                 TextButton(
                     onClick = {
-                        datePickerState.selectedDateMillis?.let { dateMillis ->
-                            onEvent(DayUiEvent.OnDateSelected(dateMillis))
+                        datePickerState.selectedDateMillis?.let { utcDateMillis ->
+                            onEvent(DayUiEvent.OnDateSelected(utcDateMillis))
                         }
                     },
                 ) {
