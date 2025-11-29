@@ -1,5 +1,6 @@
 package com.quare.bibleplanner.feature.day.presentation.component
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -65,12 +66,12 @@ private fun ChapterItem(
     modifier: Modifier = Modifier,
 ) {
     Row(
-        modifier = modifier,
+        modifier = modifier.clickable { onToggle() },
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Checkbox(
             checked = isRead,
-            onCheckedChange = { onToggle() },
+            onCheckedChange = { onToggle() }, // Handled by row click
         )
         Text(
             text = formatChapterText(bookName, chapterNumber),

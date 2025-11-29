@@ -1,5 +1,6 @@
 package com.quare.bibleplanner.feature.day.presentation.component
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,6 +34,9 @@ internal fun DayReadSection(
         Row(
             modifier = Modifier
                 .fillMaxWidth()
+                .clickable {
+                    onEvent(DayUiEvent.OnDayReadToggle(!isRead))
+                }
                 .padding(vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
@@ -43,8 +47,8 @@ internal fun DayReadSection(
             )
             Switch(
                 checked = isRead,
-                onCheckedChange = { isRead ->
-                    onEvent(DayUiEvent.OnDayReadToggle(isRead))
+                onCheckedChange = { newValue ->
+                    onEvent(DayUiEvent.OnDayReadToggle(newValue))
                 },
             )
         }

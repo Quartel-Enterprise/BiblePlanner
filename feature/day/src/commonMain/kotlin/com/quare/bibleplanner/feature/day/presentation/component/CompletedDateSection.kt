@@ -1,5 +1,6 @@
 package com.quare.bibleplanner.feature.day.presentation.component
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -37,7 +38,9 @@ internal fun CompletedDateSection(
             modifier = Modifier.padding(bottom = 8.dp),
         )
         Row(
-            modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { onEvent(DayUiEvent.OnEditDateClick) },
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Icon(
