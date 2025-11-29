@@ -1,6 +1,7 @@
 package com.quare.bibleplanner.feature.readingplan.presentation.component
 
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
@@ -122,6 +123,23 @@ private fun DayItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
+    val titleColor by animateColorAsState(
+        targetValue = if (day.isRead) {
+            MaterialTheme.colorScheme.onSurfaceVariant
+        } else {
+            MaterialTheme.colorScheme.onSurface
+        },
+        label = "dayTitleColor",
+    )
+    val passageColor by animateColorAsState(
+        targetValue = if (day.isRead) {
+            MaterialTheme.colorScheme.onSurfaceVariant
+        } else {
+            MaterialTheme.colorScheme.onSurfaceVariant
+        },
+        label = "dayPassageColor",
+    )
+
     Column(modifier = modifier.clickable { onClick() }.padding(vertical = 8.dp)) {
         Row(
             modifier = Modifier.fillMaxWidth(),
@@ -133,6 +151,7 @@ private fun DayItem(
                     text = stringResource(Res.string.day_number, day.number),
                     style = MaterialTheme.typography.bodyLarge,
                     fontWeight = FontWeight.Medium,
+                    color = titleColor,
                     textDecoration = if (day.isRead) {
                         TextDecoration.LineThrough
                     } else {
@@ -143,7 +162,7 @@ private fun DayItem(
                 Text(
                     text = dayReadingText,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    color = passageColor,
                     modifier = Modifier.padding(top = 2.dp),
                     textDecoration = if (day.isRead) {
                         TextDecoration.LineThrough
