@@ -20,11 +20,4 @@ interface DayRepository {
         isRead: Boolean,
         readTimestamp: Long?,
     )
-
-    suspend fun updatePassageReadStatus(
-        weekNumber: Int,
-        dayNumber: Int,
-        passageIndex: Int,
-        isRead: Boolean,
-    )
 }

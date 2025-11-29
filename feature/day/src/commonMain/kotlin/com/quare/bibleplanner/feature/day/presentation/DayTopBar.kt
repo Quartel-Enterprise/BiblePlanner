@@ -2,8 +2,6 @@ package com.quare.bibleplanner.feature.day.presentation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -13,8 +11,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
 import bibleplanner.feature.day.generated.resources.Res
 import bibleplanner.feature.day.generated.resources.back
 import bibleplanner.feature.day.generated.resources.day_week_title
@@ -33,49 +29,46 @@ internal fun DayTopBar(
     onBackClick: () -> Unit,
 ) {
     TopAppBar(
+        navigationIcon = {
+            IconButton(onClick = onBackClick) {
+                Icon(
+                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                    contentDescription = stringResource(Res.string.back),
+                )
+            }
+        },
         title = {
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                IconButton(onClick = onBackClick) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = stringResource(Res.string.back),
-                    )
-                }
-                when (uiState) {
-                    is DayUiState.Loaded -> {
-                        Column(verticalArrangement = Arrangement.Center) {
-                            Text(
-                                text = stringResource(
-                                    Res.string.day_week_title,
-                                    uiState.day.number,
-                                    uiState.weekNumber,
-                                ),
-                                style = MaterialTheme.typography.headlineMedium,
-                            )
-                            val (completedCount, totalCount) = calculateChapterCounts(
-                                passages = uiState.day.passages,
-                                books = uiState.books,
-                            )
-                            Text(
-                                text = stringResource(
-                                    Res.string.passages_completed,
-                                    completedCount,
-                                    totalCount,
-                                ),
-                                style = MaterialTheme.typography.bodyMedium,
-                            )
-                        }
-                    }
-
-                    is DayUiState.Loading -> {
+            when (uiState) {
+                is DayUiState.Loaded -> {
+                    Column(verticalArrangement = Arrangement.Center) {
                         Text(
-                            text = stringResource(Res.string.loading),
+                            text = stringResource(
+                                Res.string.day_week_title,
+                                uiState.day.number,
+                                uiState.weekNumber,
+                            ),
                             style = MaterialTheme.typography.headlineMedium,
                         )
+                        val (completedCount, totalCount) = calculateChapterCounts(
+                            passages = uiState.day.passages,
+                            books = uiState.books,
+                        )
+                        Text(
+                            text = stringResource(
+                                Res.string.passages_completed,
+                                completedCount,
+                                totalCount,
+                            ),
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
                     }
+                }
+
+                is DayUiState.Loading -> {
+                    Text(
+                        text = stringResource(Res.string.loading),
+                        style = MaterialTheme.typography.headlineMedium,
+                    )
                 }
             }
         },

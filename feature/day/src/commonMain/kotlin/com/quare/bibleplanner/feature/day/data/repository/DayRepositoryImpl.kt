@@ -46,15 +46,6 @@ class DayRepositoryImpl(
         dayLocalDataSource.updateDayReadStatus(weekNumber, dayNumber, isRead, readTimestamp)
     }
 
-    override suspend fun updatePassageReadStatus(
-        weekNumber: Int,
-        dayNumber: Int,
-        passageIndex: Int,
-        isRead: Boolean,
-    ) {
-        // This will be handled by the use case that uses MarkPassagesReadUseCase
-    }
-
     private suspend fun getDayModelFromPlans(
         weekNumber: Int,
         dayNumber: Int,
