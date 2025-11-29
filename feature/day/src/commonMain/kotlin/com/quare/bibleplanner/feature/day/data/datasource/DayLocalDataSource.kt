@@ -25,7 +25,13 @@ class DayLocalDataSource(
     ) {
         val existingDay = dayDao.getDayByWeekAndDay(weekNumber, dayNumber)
         if (existingDay != null) {
-            dayDao.updateDayReadStatus(weekNumber, dayNumber, isRead, readTimestamp)
+            // Use @Update annotation instead of custom query to ensure Room Flow emits
+            dayDao.updateDay(
+                existingDay.copy(
+                    isRead = isRead,
+                    readTimestamp = readTimestamp,
+                ),
+            )
         } else {
             dayDao.insertDay(
                 DayEntity(

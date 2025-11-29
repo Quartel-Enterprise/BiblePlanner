@@ -184,7 +184,7 @@ internal class DayViewModel(
         }
     }
 
-    private fun DayUiEvent.OnEditReadDate.toDuration(): Duration = (hour * minute).minutes
+    private fun DayUiEvent.OnEditReadDate.toDuration(): Duration = (hour * 60 + minute).minutes
 
     private fun backToPreviousScreen() {
         viewModelScope.launch {
