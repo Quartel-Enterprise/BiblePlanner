@@ -17,7 +17,6 @@ class GetPlansByWeekUseCase(
     private val planRepository: PlanRepository,
     private val booksRepository: BooksRepository,
 ) {
-
     @OptIn(ExperimentalCoroutinesApi::class)
     operator fun invoke(): Flow<PlansModel> = booksRepository.getBooksFlow().flatMapLatest { books ->
         val chronologicalOrder = planRepository.getPlans(ReadingPlanType.CHRONOLOGICAL)
