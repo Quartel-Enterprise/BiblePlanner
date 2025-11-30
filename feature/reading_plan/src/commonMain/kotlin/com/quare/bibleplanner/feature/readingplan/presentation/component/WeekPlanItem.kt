@@ -32,12 +32,12 @@ import androidx.compose.ui.unit.dp
 import bibleplanner.feature.reading_plan.generated.resources.Res
 import bibleplanner.feature.reading_plan.generated.resources.day_number
 import bibleplanner.feature.reading_plan.generated.resources.week_complete
+import com.quare.bibleplanner.core.books.util.getBookName
 import com.quare.bibleplanner.core.model.plan.ChapterPlanModel
 import com.quare.bibleplanner.core.model.plan.DayModel
 import com.quare.bibleplanner.core.model.plan.PassagePlanModel
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiEvent
 import com.quare.bibleplanner.feature.readingplan.presentation.model.WeekPlanPresentationModel
-import com.quare.bibleplanner.feature.readingplan.presentation.util.getBookName
 import org.jetbrains.compose.resources.stringResource
 
 @Composable
@@ -100,14 +100,8 @@ internal fun WeekPlanItem(
                         day = day,
                         modifier = Modifier
                             .padding(horizontal = 16.dp),
-                        onClick = {
-                            onEvent(
-                                ReadingPlanUiEvent.OnDayReadClick(
-                                    dayNumber = day.number,
-                                    weekNumber = weekPresentation.weekPlan.number,
-                                ),
-                            )
-                        },
+                        onEvent = onEvent,
+                        weekNumber = weekPresentation.weekPlan.number,
                     )
                 }
             }
@@ -119,9 +113,10 @@ internal fun WeekPlanItem(
 
 @Composable
 private fun DayItem(
+    weekNumber: Int,
     day: DayModel,
     modifier: Modifier = Modifier,
-    onClick: () -> Unit,
+    onEvent: (ReadingPlanUiEvent) -> Unit,
 ) {
     val titleColor by animateColorAsState(
         targetValue = if (day.isRead) {
@@ -140,7 +135,17 @@ private fun DayItem(
         label = "dayPassageColor",
     )
 
-    Column(modifier = modifier.clickable { onClick() }.padding(vertical = 8.dp)) {
+    Column(
+        modifier = modifier
+            .clickable {
+                onEvent(
+                    ReadingPlanUiEvent.OnDayClick(
+                        dayNumber = day.number,
+                        weekNumber = weekNumber,
+                    ),
+                )
+            }.padding(vertical = 8.dp),
+    ) {
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,
@@ -174,7 +179,14 @@ private fun DayItem(
 
             Checkbox(
                 checked = day.isRead,
-                onCheckedChange = { onClick() },
+                onCheckedChange = {
+                    onEvent(
+                        ReadingPlanUiEvent.OnDayReadClick(
+                            dayNumber = day.number,
+                            weekNumber = weekNumber,
+                        ),
+                    )
+                },
             )
         }
     }

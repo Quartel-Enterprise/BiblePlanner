@@ -30,6 +30,7 @@ kotlin {
         commonMain.dependencies {
             // Feature
             implementation(projects.feature.readingPlan)
+            implementation(projects.feature.day)
 
             // Core
             implementation(projects.core.model)

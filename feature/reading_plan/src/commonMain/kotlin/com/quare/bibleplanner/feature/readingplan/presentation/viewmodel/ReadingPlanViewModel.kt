@@ -9,14 +9,15 @@ import com.quare.bibleplanner.core.model.plan.ReadingPlanType
 import com.quare.bibleplanner.core.model.plan.WeekPlanModel
 import com.quare.bibleplanner.core.plan.domain.usecase.GetPlansByWeekUseCase
 import com.quare.bibleplanner.feature.readingplan.presentation.factory.ReadingPlanStateFactory
+import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiAction
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiEvent
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiState
 import com.quare.bibleplanner.feature.readingplan.presentation.model.WeekPlanPresentationModel
+import com.quare.bibleplanner.ui.utils.observe
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
@@ -29,6 +30,9 @@ internal class ReadingPlanViewModel(
     private val _uiState: MutableStateFlow<ReadingPlanUiState> = MutableStateFlow(factory.createLoading())
     val uiState: StateFlow<ReadingPlanUiState> = _uiState
 
+    private val _uiAction: MutableSharedFlow<ReadingPlanUiAction> = MutableSharedFlow()
+    val uiAction: SharedFlow<ReadingPlanUiAction> = _uiAction
+
     private var currentPlansModel: PlansModel? = null
     private val expandedWeeks = mutableSetOf<Int>().apply {
         // Default to week 1 expanded
@@ -39,29 +43,24 @@ internal class ReadingPlanViewModel(
         viewModelScope.launch {
             initializeBooksIfNeeded()
         }
-
-        getPlansByWeek()
-            .onEach { plansModel ->
-                currentPlansModel = plansModel
-                _uiState.update { currentState ->
-                    val selectedPlan = currentState.selectedReadingPlan
-                    val selectedWeeks = when (selectedPlan) {
-                        ReadingPlanType.CHRONOLOGICAL -> plansModel.chronologicalOrder
-                        ReadingPlanType.BOOKS -> plansModel.booksOrder
-                    }
-                    val progress = calculateProgress(selectedWeeks)
-                    val weekPresentationModels = createWeekPresentationModels(selectedWeeks)
-
-                    ReadingPlanUiState.Loaded(
-                        weekPlans = weekPresentationModels,
-                        progress = progress,
-                        selectedReadingPlan = selectedPlan,
-                    )
+        observe(getPlansByWeek()) { plansModel ->
+            currentPlansModel = plansModel
+            _uiState.update { currentState ->
+                val selectedPlan = currentState.selectedReadingPlan
+                val selectedWeeks = when (selectedPlan) {
+                    ReadingPlanType.CHRONOLOGICAL -> plansModel.chronologicalOrder
+                    ReadingPlanType.BOOKS -> plansModel.booksOrder
                 }
-            }.catch { error ->
-                // Handle error - could update UI state to show error
-                error.printStackTrace()
-            }.launchIn(viewModelScope)
+                val progress = calculateProgress(selectedWeeks)
+                val weekPresentationModels = createWeekPresentationModels(selectedWeeks)
+
+                ReadingPlanUiState.Loaded(
+                    weekPlans = weekPresentationModels,
+                    progress = progress,
+                    selectedReadingPlan = selectedPlan,
+                )
+            }
+        }
     }
 
     fun onEvent(event: ReadingPlanUiEvent) {
@@ -132,6 +131,18 @@ internal class ReadingPlanViewModel(
 
                 viewModelScope.launch {
                     markPassagesReadUseCase(day.passages)
+                }
+            }
+
+            is ReadingPlanUiEvent.OnDayClick -> {
+                viewModelScope.launch {
+                    _uiAction.emit(
+                        ReadingPlanUiAction.GoToDay(
+                            dayNumber = event.dayNumber,
+                            weekNumber = event.weekNumber,
+                            readingPlanType = uiState.value.selectedReadingPlan,
+                        ),
+                    )
                 }
             }
         }

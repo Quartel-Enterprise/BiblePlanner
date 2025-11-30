@@ -1,0 +1,18 @@
+<resources>
+    <string name="day_details_screen">Tela de Detalhes do Dia</string>
+    <string name="back">Voltar</string>
+    <string name="day_week_title">Dia %1$d — Semana %2$d</string>
+    <string name="passages_completed">%1$d/%2$d passagens concluídas</string>
+    <string name="loading">Carregando...</string>
+    <string name="no_date_set">Nenhuma data definida</string>
+    <string name="mark_day_as_read">Marcar dia como lido</string>
+    <string name="edit">Editar</string>
+    <string name="completed_date">Data de conclusão</string>
+    <string name="next">Próximo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_time">Selecionar Hora</string>
+    <string name="future_date_error">Não é possível selecionar uma data futura</string>
+    <string name="calendar">Calendário</string>
+</resources>
+

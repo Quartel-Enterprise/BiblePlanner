@@ -6,4 +6,5 @@ data class DayModel(
     val isRead: Boolean,
     val totalVerses: Int,
     val readVerses: Int,
+    val readTimestamp: Long?,
 )

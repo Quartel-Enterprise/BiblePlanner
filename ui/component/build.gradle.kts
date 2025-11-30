@@ -23,10 +23,15 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            // Core
+            implementation(projects.core.provider.platform)
+
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material3)
             implementation(compose.ui)
+            implementation(compose.materialIconsExtended)
+            implementation(compose.components.resources)
         }
     }
 }
