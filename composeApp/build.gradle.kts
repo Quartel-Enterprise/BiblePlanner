@@ -115,15 +115,28 @@ kotlin {
     }
 }
 
-// Override compose.desktop configuration
 compose.desktop {
     application {
         mainClass = "com.quare.bibleplanner.MainKt"
+
+        jvmArgs += listOf("-Xdock:icon=${project.file("../icons/bible_planner_logo.icns").absolutePath}")
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.quare.bibleplanner"
             packageVersion = "1.0.0"
+
+            macOS {
+                iconFile.set(project.file("../icons/bible_planner_logo.icns"))
+            }
+
+            windows {
+                iconFile.set(project.file("../icons/bible_planner_logo.ico"))
+            }
+
+            linux {
+                iconFile.set(project.file("../icons/bible_planner_logo.png"))
+            }
         }
     }
 }
