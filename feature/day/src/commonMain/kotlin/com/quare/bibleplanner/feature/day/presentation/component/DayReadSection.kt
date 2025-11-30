@@ -23,9 +23,7 @@ internal fun DayReadSection(
     onEvent: (DayUiEvent) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    Column(
-        modifier = modifier.padding(vertical = 16.dp),
-    ) {
+    Column(modifier = modifier) {
         // Completed date section - show when day is marked as read
         AnimatedVisibility(
             visible = isRead,
