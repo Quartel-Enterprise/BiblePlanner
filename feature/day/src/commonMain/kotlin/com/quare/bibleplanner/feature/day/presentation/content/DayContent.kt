@@ -17,6 +17,7 @@ internal fun DayContent(
         is DayUiState.Loading -> LoadingDayContent(modifier)
 
         is DayUiState.Loaded -> LoadedDayContent(
+            modifier = modifier,
             uiState = uiState,
             onEvent = onEvent,
             maxContentWidth = maxContentWidth,

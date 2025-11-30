@@ -9,9 +9,11 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.unit.dp
 import bibleplanner.feature.day.generated.resources.Res
 import bibleplanner.feature.day.generated.resources.day_week_title
@@ -33,7 +35,12 @@ internal fun DayScreen(
     uiState: DayUiState,
     onEvent: (DayUiEvent) -> Unit,
 ) {
+    val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
+
     Scaffold(
+        modifier = Modifier
+            .fillMaxSize()
+            .nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
             TopAppBar(
                 title = {
@@ -73,18 +80,19 @@ internal fun DayScreen(
                             )
                         }
                     }
-                }
+                },
+                scrollBehavior = scrollBehavior,
             )
         }
     ) { paddingValues ->
         BoxWithConstraints(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(paddingValues)
-                .padding(16.dp)
+                .padding(paddingValues),
         ) {
             val constrainedWidth = maxWidth.coerceAtMost(MAX_CONTENT_WIDTH.dp)
             DayContent(
+                modifier = Modifier.fillMaxSize(),
                 uiState = uiState,
                 onEvent = onEvent,
                 maxContentWidth = constrainedWidth
