@@ -1,12 +1,9 @@
 package com.quare.bibleplanner.feature.day.presentation.component
 
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
 import bibleplanner.feature.day.generated.resources.Res
 import bibleplanner.feature.day.generated.resources.passages_completed
 import com.quare.bibleplanner.core.model.book.BookDataModel
@@ -26,15 +23,13 @@ internal fun DayProgress(
     )
 
     Text(
+        modifier = modifier,
         text = stringResource(
             Res.string.passages_completed,
             completedCount,
             totalCount,
         ),
-        style = MaterialTheme.typography.bodyMedium,
-        modifier = modifier
-            .fillMaxWidth()
-            .padding(vertical = 8.dp),
+        style = MaterialTheme.typography.labelMedium,
     )
 }
 

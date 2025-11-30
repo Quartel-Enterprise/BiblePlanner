@@ -1,5 +1,7 @@
 package com.quare.bibleplanner.feature.readingplan.presentation
 
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -10,12 +12,15 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.unit.dp
 import bibleplanner.feature.reading_plan.generated.resources.Res
 import bibleplanner.feature.reading_plan.generated.resources.reading_plan
 import com.quare.bibleplanner.feature.readingplan.presentation.content.ReadingPlanContent
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiEvent
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiState
 import org.jetbrains.compose.resources.stringResource
+
+private const val MAX_CONTENT_WIDTH = 600
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -32,17 +37,26 @@ internal fun ReadingPlanScreen(
         topBar = {
             TopAppBar(
                 title = {
-                    Text(text = stringResource(Res.string.reading_plan))
+                    Column {
+                        Text(text = stringResource(Res.string.reading_plan))
+                    }
                 },
                 scrollBehavior = scrollBehavior,
             )
         },
     ) { paddingValues ->
-        ReadingPlanContent(
+        BoxWithConstraints(
             modifier = Modifier
+                .fillMaxSize()
                 .padding(paddingValues),
-            uiState = uiState,
-            onEvent = onEvent,
-        )
+        ) {
+            val constrainedWidth = maxWidth.coerceAtMost(MAX_CONTENT_WIDTH.dp)
+            ReadingPlanContent(
+                modifier = Modifier.fillMaxSize(),
+                uiState = uiState,
+                onEvent = onEvent,
+                maxContentWidth = constrainedWidth,
+            )
+        }
     }
 }
