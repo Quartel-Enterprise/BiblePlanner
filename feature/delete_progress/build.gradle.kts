@@ -1,17 +1,17 @@
 plugins {
-    alias(libs.plugins.androidLibrary)
     alias(libs.plugins.kotlinMultiplatform)
+    alias(libs.plugins.androidLibrary)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    alias(libs.plugins.serialization)
     alias(libs.plugins.androidCommonConfig)
 }
 
 android {
-    namespace = "com.quare.bibleplanner.core.navigation"
+    namespace = "com.quare.bibleplanner.feature.deleteprogress"
 }
 
 kotlin {
+
     androidTarget()
 
     listOf(
@@ -19,32 +19,37 @@ kotlin {
         iosSimulatorArm64(),
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "CoreNavigation"
+            baseName = "FeatureDeleteProgress"
             isStatic = true
         }
     }
-
     jvm()
 
     sourceSets {
         commonMain.dependencies {
-            // Feature
-            implementation(projects.feature.readingPlan)
-            implementation(projects.feature.themeSelection)
-            implementation(projects.feature.materialYou)
-            implementation(projects.feature.day)
-            implementation(projects.feature.deleteProgress)
-
             // Core
+            implementation(projects.core.books)
             implementation(projects.core.model)
-            implementation(projects.core.provider.koin)
-            implementation(projects.core.provider.room)
+
+            // UI
+            implementation(projects.ui.utils)
 
             // Compose
             implementation(compose.runtime)
+            implementation(compose.foundation)
+            implementation(compose.material3)
+            implementation(compose.ui)
+            implementation(compose.components.resources)
 
             // Navigation
             implementation(libs.compose.navigation)
+
+            // Koin
+            implementation(project.dependencies.platform(libs.koinBom))
+            implementation(libs.koinCore)
+            implementation(libs.koinCompose)
+            implementation(libs.koinComposeViewModel)
         }
     }
 }
+

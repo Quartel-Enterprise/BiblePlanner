@@ -175,7 +175,7 @@ internal class ReadingPlanViewModel(
                 emitUiAction(
                     when (event.option) {
                         OverflowOption.THEME -> ReadingPlanUiAction.GoToTheme
-                        OverflowOption.DELETE_PROGRESS -> ReadingPlanUiAction.GoToTheme
+                        OverflowOption.DELETE_PROGRESS -> ReadingPlanUiAction.GoToDeleteAllProgress
                     },
                 )
             }

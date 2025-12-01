@@ -30,6 +30,7 @@ kotlin {
 
             // Features
             implementation(projects.feature.readingPlan)
+            implementation(projects.feature.deleteProgress)
             implementation(projects.feature.themeSelection)
             implementation(projects.feature.materialYou)
             implementation(projects.feature.day)
