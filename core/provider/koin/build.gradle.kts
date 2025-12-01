@@ -23,6 +23,7 @@ kotlin {
         commonMain.dependencies {
             // Core
             implementation(projects.core.provider.dataStore)
+            implementation(projects.core.provider.platform)
             implementation(projects.core.provider.room)
             implementation(projects.core.books)
             implementation(projects.core.plan)
@@ -30,6 +31,7 @@ kotlin {
             // Features
             implementation(projects.feature.readingPlan)
             implementation(projects.feature.themeSelection)
+            implementation(projects.feature.materialYou)
             implementation(projects.feature.day)
 
             // Koin

@@ -2,10 +2,12 @@ package com.quare.bibleplanner.feature.themeselection.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.quare.bibleplanner.core.provider.platform.Platform
+import com.quare.bibleplanner.core.provider.platform.isAndroid
+import com.quare.bibleplanner.feature.materialyou.domain.usecase.GetIsDynamicColorsEnabledFlow
 import com.quare.bibleplanner.feature.themeselection.domain.usecase.GetThemeOptionFlow
 import com.quare.bibleplanner.feature.themeselection.domain.usecase.SetThemeOption
 import com.quare.bibleplanner.feature.themeselection.presentation.factory.ThemeOptionsFactory
-import com.quare.bibleplanner.feature.themeselection.presentation.model.ThemeSelectionModel
 import com.quare.bibleplanner.feature.themeselection.presentation.model.ThemeSelectionUiAction
 import com.quare.bibleplanner.feature.themeselection.presentation.model.ThemeSelectionUiEvent
 import com.quare.bibleplanner.feature.themeselection.presentation.model.ThemeSelectionUiState
@@ -16,13 +18,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 class ThemeSelectionViewModel(
     private val setThemeOption: SetThemeOption,
-    private val getThemeOptionFlow: GetThemeOptionFlow,
+    getThemeOptionFlow: GetThemeOptionFlow,
+    getIsDynamicColorsEnabledFlow: GetIsDynamicColorsEnabledFlow,
+    platform: Platform,
 ) : ViewModel() {
     val themeOptions = ThemeOptionsFactory.themeOptions
 
@@ -31,7 +34,7 @@ class ThemeSelectionViewModel(
 
     private val _uiState: MutableStateFlow<ThemeSelectionUiState> = MutableStateFlow(
         ThemeSelectionUiState(
-            isMaterialYouToggleOn = false,
+            isMaterialYouToggleOn = null,
             options = themeOptions,
         ),
     )
@@ -44,6 +47,13 @@ class ThemeSelectionViewModel(
                     options = currentState.options.map { themeOption ->
                         themeOption.copy(isActive = themeOption.preference == newTheme)
                     },
+                )
+            }
+        }
+        observe(getIsDynamicColorsEnabledFlow()) { isDynamicColorsEnabled ->
+            _uiState.update { currentState ->
+                currentState.copy(
+                    isMaterialYouToggleOn = isDynamicColorsEnabled.takeIf { platform.isAndroid() },
                 )
             }
         }

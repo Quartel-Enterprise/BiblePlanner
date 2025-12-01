@@ -9,6 +9,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.navigation.NavGraphBuilder
 import com.quare.bibleplanner.core.navigation.AppNavHost
 import com.quare.bibleplanner.ui.theme.AppTheme
 import com.quare.bibleplanner.ui.theme.model.LocalTheme
@@ -18,7 +19,10 @@ import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
 @Preview
-fun App(getSpecificColors: @Composable ((isAppInDarkTheme: Boolean) -> ColorScheme?)? = null) {
+fun App(
+    getSpecificColors: @Composable ((isAppInDarkTheme: Boolean) -> ColorScheme?)? = null,
+    extraRoute: (NavGraphBuilder) -> Unit = { },
+) {
     val viewModel: AppViewModel = koinViewModel()
     val theme by viewModel.themeState.collectAsState()
     ProvideCompositionLocals(theme) {
@@ -27,7 +31,7 @@ fun App(getSpecificColors: @Composable ((isAppInDarkTheme: Boolean) -> ColorSche
                 modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background,
             ) {
-                AppNavHost()
+                AppNavHost(extraRoute)
             }
         }
     }

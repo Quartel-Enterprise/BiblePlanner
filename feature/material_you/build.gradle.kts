@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.quare.bibleplanner.feature.themeselection"
+    namespace = "com.quare.bibleplanner.feature.materialyou"
 }
 
 kotlin {
@@ -19,7 +19,7 @@ kotlin {
         iosSimulatorArm64(),
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "FeatureThemeSelection"
+            baseName = "FeatureMaterialYou"
             isStatic = true
         }
     }
@@ -27,12 +27,9 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
-            // Feature
-            implementation(projects.feature.materialYou)
-
             // Core
-            implementation(projects.core.provider.platform)
             implementation(projects.core.model)
+            implementation(projects.core.utils)
 
             // UI
             implementation(projects.ui.component)

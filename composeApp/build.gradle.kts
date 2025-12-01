@@ -83,16 +83,19 @@ kotlin {
         }
         commonMain.dependencies {
             // Feature
+            implementation(projects.feature.materialYou)
             implementation(projects.feature.themeSelection)
 
             // Core
             implementation(projects.core.books)
+            implementation(projects.core.model)
             implementation(projects.core.navigation)
             implementation(projects.core.provider.koin)
             implementation(projects.core.provider.room)
 
             // UI
             implementation(projects.ui.theme)
+            implementation(projects.ui.utils)
 
             // Compose
             implementation(compose.runtime)
@@ -103,6 +106,9 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+
+            // Navigation
+            implementation(libs.compose.navigation)
 
             // Koin
             implementation(project.dependencies.platform(libs.koinBom))
