@@ -27,9 +27,10 @@ internal fun LazyListScope.passageList(
     maxContentWidth: Dp,
 ) {
     itemsIndexed(passages) { passageIndex, passage ->
+        val onToggle = { onChapterToggle(passageIndex, -1) }
         if (passage.chapters.isEmpty()) {
             Box(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().clickable { onToggle() },
                 contentAlignment = Alignment.Center,
             ) {
                 Box(modifier = Modifier.width(maxContentWidth)) {
@@ -37,9 +38,10 @@ internal fun LazyListScope.passageList(
                         bookName = passage.bookId.getBookName(),
                         chapterNumber = null,
                         isRead = passage.isRead,
-                        onToggle = { onChapterToggle(passageIndex, -1) },
+                        onToggle = onToggle,
                         modifier = Modifier
                             .fillMaxWidth()
+                            .padding(start = 8.dp)
                             .padding(vertical = 8.dp),
                     )
                 }
@@ -58,9 +60,10 @@ internal fun LazyListScope.passageList(
         } else {
             // Show each chapter as a separate item
             passage.chapters.forEachIndexed { chapterIndex, chapter ->
+                val onToggle = { onChapterToggle(passageIndex, chapterIndex) }
                 val isChapterRead = chapterReadStatus[passageIndex to chapterIndex] ?: false
                 Box(
-                    modifier = Modifier.fillMaxWidth(),
+                    modifier = Modifier.fillMaxWidth().clickable { onToggle() },
                     contentAlignment = Alignment.Center,
                 ) {
                     Box(modifier = Modifier.width(maxContentWidth)) {
@@ -68,9 +71,10 @@ internal fun LazyListScope.passageList(
                             bookName = passage.bookId.getBookName(),
                             chapterNumber = chapter.number,
                             isRead = isChapterRead,
-                            onToggle = { onChapterToggle(passageIndex, chapterIndex) },
+                            onToggle = onToggle,
                             modifier = Modifier
                                 .fillMaxWidth()
+                                .padding(start = 8.dp)
                                 .padding(vertical = 8.dp),
                         )
                     }
@@ -102,17 +106,17 @@ private fun ChapterItem(
     modifier: Modifier = Modifier,
 ) {
     Row(
-        modifier = modifier.clickable { onToggle() },
+        modifier = modifier,
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Checkbox(
-            checked = isRead,
-            onCheckedChange = { onToggle() }, // Handled by row click
-        )
         Text(
             text = formatChapterText(bookName, chapterNumber),
             style = MaterialTheme.typography.bodyLarge,
-            modifier = Modifier.padding(start = 8.dp),
+            modifier = Modifier.weight(1f),
+        )
+        Checkbox(
+            checked = isRead,
+            onCheckedChange = { onToggle() }, // Handled by row click
         )
     }
 }
