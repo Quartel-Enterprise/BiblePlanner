@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -31,29 +32,22 @@ internal fun LoadedDayContent(
     LazyColumn(
         modifier = modifier,
     ) {
-        item {
-            Box(
-                modifier = Modifier.fillMaxWidth(),
-                contentAlignment = Alignment.Center,
+        centeredContentItem(maxContentWidth) {
+            OutlinedButton(
+                onClick = {
+                    onEvent(
+                        DayUiEvent.OnDayReadToggle(!uiState.day.isRead),
+                    )
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 8.dp),
             ) {
-                Box(modifier = Modifier.width(maxContentWidth)) {
-                    OutlinedButton(
-                        onClick = {
-                            onEvent(
-                                DayUiEvent.OnDayReadToggle(!uiState.day.isRead),
-                            )
-                        },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 16.dp, vertical = 8.dp),
-                    ) {
-                        Text(
-                            text = stringResource(
-                                if (uiState.day.isRead) Res.string.mark_as_unread else Res.string.mark_as_read,
-                            ),
-                        )
-                    }
-                }
+                Text(
+                    text = stringResource(
+                        if (uiState.day.isRead) Res.string.mark_as_unread else Res.string.mark_as_read,
+                    ),
+                )
             }
         }
 
@@ -66,19 +60,28 @@ internal fun LoadedDayContent(
             maxContentWidth = maxContentWidth,
         )
 
-        item {
-            Box(
-                modifier = Modifier.fillMaxWidth(),
-                contentAlignment = Alignment.Center,
-            ) {
-                Box(modifier = Modifier.width(maxContentWidth)) {
-                    DayReadSection(
-                        modifier = Modifier.padding(horizontal = 8.dp),
-                        isRead = uiState.day.isRead,
-                        formattedReadDate = uiState.formattedReadDate,
-                        onEvent = onEvent,
-                    )
-                }
+        centeredContentItem(maxContentWidth) {
+            DayReadSection(
+                modifier = Modifier.padding(horizontal = 8.dp),
+                isRead = uiState.day.isRead,
+                formattedReadDate = uiState.formattedReadDate,
+                onEvent = onEvent,
+            )
+        }
+    }
+}
+
+private fun LazyListScope.centeredContentItem(
+    maxContentWidth: Dp,
+    content: @Composable () -> Unit,
+) {
+    item {
+        Box(
+            modifier = Modifier.fillMaxWidth(),
+            contentAlignment = Alignment.Center,
+        ) {
+            Box(modifier = Modifier.width(maxContentWidth)) {
+                content()
             }
         }
     }
