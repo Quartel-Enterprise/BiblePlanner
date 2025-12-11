@@ -13,9 +13,9 @@ import com.quare.bibleplanner.feature.readingplan.domain.usecase.impl.SetSelecte
 import com.quare.bibleplanner.feature.readingplan.presentation.factory.ReadingPlanStateFactory
 import com.quare.bibleplanner.feature.readingplan.presentation.viewmodel.ReadingPlanViewModel
 import org.koin.core.module.dsl.factoryOf
-import org.koin.core.module.dsl.viewModelOf
 import org.koin.dsl.bind
 import org.koin.dsl.module
+import org.koin.core.module.dsl.viewModel
 
 val readingPlanModule = module {
     // Data
@@ -28,6 +28,17 @@ val readingPlanModule = module {
     factoryOf(::FindFirstWeekWithUnreadBookUseCase).bind<FindFirstWeekWithUnreadBook>()
 
     // Presentation
-    viewModelOf(::ReadingPlanViewModel)
+    viewModel {
+        ReadingPlanViewModel(
+            factory = get(),
+            getPlansByWeek = get(),
+            getSelectedReadingPlanFlow = get(),
+            initializeBooksIfNeeded = get(),
+            updateDayReadStatus = get(),
+            setSelectedReadingPlan = get(),
+            findFirstWeekWithUnreadBook = get(),
+            calculateBibleProgressUseCase = get(),
+        )
+    }
     factoryOf(::ReadingPlanStateFactory)
 }
