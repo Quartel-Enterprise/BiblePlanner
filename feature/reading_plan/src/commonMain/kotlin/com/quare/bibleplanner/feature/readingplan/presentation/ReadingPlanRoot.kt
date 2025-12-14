@@ -123,7 +123,9 @@ fun NavGraphBuilder.readingPlan(navController: NavController) {
                     navController.navigate(ThemeNavRoute)
                 }
 
-                is ReadingPlanUiAction.OpenLink -> uriHandler.openUri(uiAction.url)
+                is ReadingPlanUiAction.OpenLink -> {
+                    uriHandler.openUri(uiAction.url)
+                }
             }
         }
         ReadingPlanScreen(

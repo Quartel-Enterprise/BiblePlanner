@@ -34,7 +34,7 @@ internal fun ReadingPlanDropdownMenu(
                 text = {
                     Text(
                         text = text,
-                        color = tint
+                        color = tint,
                     )
                 },
                 onClick = {

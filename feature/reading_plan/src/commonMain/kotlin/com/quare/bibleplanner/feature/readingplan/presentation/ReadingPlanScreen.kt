@@ -87,7 +87,7 @@ internal fun ReadingPlanScreen(
                     )
                     ReadingPlanDropdownMenu(
                         isShowingMenu = uiState.isShowingMenu,
-                        onEvent = onEvent
+                        onEvent = onEvent,
                     )
                 },
             )

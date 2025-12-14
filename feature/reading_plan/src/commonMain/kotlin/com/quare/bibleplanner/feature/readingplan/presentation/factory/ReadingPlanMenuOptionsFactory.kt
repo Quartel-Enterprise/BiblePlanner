@@ -18,7 +18,7 @@ internal object ReadingPlanMenuOptionsFactory {
         OverflowOptionPresentationModel(
             name = Res.string.theme_option,
             type = OverflowOption.THEME,
-            icon = Icons.Default.Palette
+            icon = Icons.Default.Palette,
         ),
         OverflowOptionPresentationModel(
             name = Res.string.terms_of_service,
@@ -34,6 +34,6 @@ internal object ReadingPlanMenuOptionsFactory {
             name = Res.string.delete_progress_option,
             type = OverflowOption.DELETE_PROGRESS,
             icon = Icons.Default.Delete,
-        )
+        ),
     )
 }

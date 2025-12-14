@@ -13,5 +13,7 @@ sealed interface ReadingPlanUiAction {
 
     data object GoToTheme : ReadingPlanUiAction
 
-    data class OpenLink(val url: String) : ReadingPlanUiAction
+    data class OpenLink(
+        val url: String,
+    ) : ReadingPlanUiAction
 }
