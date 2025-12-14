@@ -338,12 +338,13 @@ internal class ReadingPlanViewModel(
         OverflowOption.TERMS -> ReadingPlanUiAction.OpenLink("$BASE_URL/terms")
     }
 
-    private fun getDeleteProgressUiAction(): ReadingPlanUiAction? = when(val state = uiState.value) {
+    private fun getDeleteProgressUiAction(): ReadingPlanUiAction? = when (val state = uiState.value) {
         is ReadingPlanUiState.Loaded -> if (state.weekPlans.containsReadDay()) {
             ReadingPlanUiAction.GoToDeleteAllProgress
         } else {
             ReadingPlanUiAction.ShowNoProgressToDelete
         }
+
         is ReadingPlanUiState.Loading -> null
     }
 

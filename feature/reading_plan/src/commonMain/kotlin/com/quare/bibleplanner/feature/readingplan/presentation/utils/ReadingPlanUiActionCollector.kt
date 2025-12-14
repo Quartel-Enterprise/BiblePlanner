@@ -45,9 +45,11 @@ internal fun ReadingPlanUiActionCollector(
                 uriHandler.openUri(uiAction.url)
             }
 
-            ReadingPlanUiAction.ShowNoProgressToDelete -> snackbarHostState.showSnackbar(
-                getString(Res.string.no_progress_to_delete_message)
-            )
+            ReadingPlanUiAction.ShowNoProgressToDelete -> {
+                snackbarHostState.showSnackbar(
+                    getString(Res.string.no_progress_to_delete_message),
+                )
+            }
         }
     }
 }

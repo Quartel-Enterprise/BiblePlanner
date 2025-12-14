@@ -18,8 +18,8 @@ import com.quare.bibleplanner.core.model.route.ReadingPlanNavRoute
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiAction
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiEvent
 import com.quare.bibleplanner.feature.readingplan.presentation.model.ReadingPlanUiState
-import com.quare.bibleplanner.feature.readingplan.presentation.utils.ScrollToTopObserver
 import com.quare.bibleplanner.feature.readingplan.presentation.utils.ReadingPlanUiActionCollector
+import com.quare.bibleplanner.feature.readingplan.presentation.utils.ScrollToTopObserver
 import com.quare.bibleplanner.feature.readingplan.presentation.utils.ScrollToWeekAction
 import com.quare.bibleplanner.feature.readingplan.presentation.viewmodel.ReadingPlanViewModel
 import kotlinx.coroutines.flow.Flow
@@ -84,7 +84,7 @@ private fun ReadingPlanScreenObserver(
         scrollToTop = scrollToTop,
         lazyListState = lazyListState,
         scrollBehavior = scrollBehavior,
-        onEvent = onEvent
+        onEvent = onEvent,
     )
 
     ScrollToWeekAction(
