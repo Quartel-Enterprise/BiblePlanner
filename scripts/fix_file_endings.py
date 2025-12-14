@@ -25,6 +25,7 @@ SOURCE_EXTENSIONS = (
     '.js', '.ts',            # JavaScript/TypeScript
     '.css', '.scss',         # Styles
     '.html',                 # HTML
+    '.strings',              # infoPlist.strings
 )
 
 # Directories to exclude
