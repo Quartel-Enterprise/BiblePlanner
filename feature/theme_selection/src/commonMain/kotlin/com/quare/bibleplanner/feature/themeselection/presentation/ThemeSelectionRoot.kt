@@ -15,7 +15,7 @@ fun NavGraphBuilder.themeSettings(navController: NavHostController) {
         val uiState by viewModel.uiState.collectAsState()
         ThemeSettingsUiActionCollector(
             actionsFlow = viewModel.uiAction,
-            navController = navController
+            navController = navController,
         )
         ThemeSelectionScreen(
             uiState = uiState,
