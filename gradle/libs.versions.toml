@@ -13,7 +13,7 @@ navigationComposeMultiplatform = "2.9.1"
 koinVersion = "4.1.1"
 room = "2.8.4"
 sqlite = "2.6.2"
-ksp = "2.2.20-2.0.3"
+ksp = "2.3.3"
 datasSoreVersion = "1.2.0"
 
 [libraries]
