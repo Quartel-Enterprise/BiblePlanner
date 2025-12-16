@@ -39,7 +39,7 @@ internal fun DayScreen(
                 sharedTransitionScope = sharedTransitionScope,
                 animatedContentScope = animatedContentScope,
                 scrollBehavior = scrollBehavior,
-                onEvent = onEvent
+                onEvent = onEvent,
             )
         },
     ) { paddingValues ->
