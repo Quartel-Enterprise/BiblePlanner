@@ -35,6 +35,25 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
+      - name: Cache Gradle dependencies
+        id: gradle-cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties', '**/libs.versions.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Display cache status
+        run: |
+          if [ "${{ steps.gradle-cache.outputs.cache-hit }}" == "true" ]; then
+            echo "✅ Cache hit! Gradle dependencies were restored from cache."
+          else
+            echo "❌ Cache miss. Gradle dependencies will be downloaded."
+          fi
+
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
