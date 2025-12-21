@@ -48,7 +48,8 @@ class UpdateChapterReadStatusUseCase(
             PassagePlanModel(
                 bookId = passage.bookId,
                 chapters = listOf(chapter),
-                isRead = false, // Will be determined by MarkPassagesReadUseCase
+                isRead = false,
+                chapterRanges = passage.chapterRanges,
             )
         }
 
@@ -68,10 +69,20 @@ class UpdateChapterReadStatusUseCase(
         val allPassagesRead = updatedDay.passages.all { it.isRead }
         if (allPassagesRead) {
             val readTimestamp = Clock.System.now().toEpochMilliseconds()
-            dayRepository.updateDayReadStatus(weekNumber, dayNumber, true, readTimestamp)
+            dayRepository.updateDayReadStatus(
+                weekNumber = weekNumber,
+                dayNumber = dayNumber,
+                isRead = true,
+                readTimestamp = readTimestamp,
+            )
         } else {
             // If not all passages are read, unmark day as read
-            dayRepository.updateDayReadStatus(weekNumber, dayNumber, false, null)
+            dayRepository.updateDayReadStatus(
+                weekNumber = weekNumber,
+                dayNumber = dayNumber,
+                isRead = false,
+                readTimestamp = null,
+            )
         }
     }
 }
