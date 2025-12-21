@@ -1,6 +1,7 @@
 package com.quare.bibleplanner.core.plan.di
 
 import com.quare.bibleplanner.core.plan.data.datasource.PlanLocalDataSource
+import com.quare.bibleplanner.core.plan.data.mapper.ChaptersRangeMapper
 import com.quare.bibleplanner.core.plan.data.mapper.WeekPlanDtoToModelMapper
 import com.quare.bibleplanner.core.plan.data.repository.PlanRepositoryImpl
 import com.quare.bibleplanner.core.plan.domain.repository.PlanRepository
@@ -16,6 +17,7 @@ val planModule = module {
 
     // Mappers
     factoryOf(::WeekPlanDtoToModelMapper)
+    factoryOf(::ChaptersRangeMapper)
 
     // Repository
     singleOf(::PlanRepositoryImpl).bind<PlanRepository>()

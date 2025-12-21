@@ -12,6 +12,7 @@ import com.quare.bibleplanner.core.plan.data.dto.WeekPlanDto
 
 class WeekPlanDtoToModelMapper(
     private val bookMapsProvider: BookMapsProvider,
+    private val chaptersRangeMapper: ChaptersRangeMapper,
 ) {
     fun map(weekPlanDto: WeekPlanDto): WeekPlanModel = WeekPlanModel(
         number = weekPlanDto.week,
@@ -40,6 +41,7 @@ class WeekPlanDtoToModelMapper(
             bookId = bookId,
             chapters = emptyList(),
             isRead = false,
+            chapterRanges = null,
         )
 
         val chapters = buildList {
@@ -82,6 +84,7 @@ class WeekPlanDtoToModelMapper(
             bookId = bookId,
             chapters = chapters,
             isRead = false,
+            chapterRanges = chaptersRangeMapper.map(chapters),
         )
     }
 
