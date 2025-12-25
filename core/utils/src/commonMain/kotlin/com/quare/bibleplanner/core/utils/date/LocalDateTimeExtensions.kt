@@ -1,4 +1,4 @@
-package com.quare.bibleplanner.core.utils
+package com.quare.bibleplanner.core.utils.date
 
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.LocalDateTime

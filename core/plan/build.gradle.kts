@@ -31,6 +31,7 @@ kotlin {
             // Core
             implementation(projects.core.books)
             implementation(projects.core.model)
+            implementation(projects.core.utils)
 
             // Compose
             implementation(compose.runtime)
@@ -48,6 +49,13 @@ kotlin {
             // Koin
             implementation(project.dependencies.platform(libs.koinBom))
             implementation(libs.koinCore)
+
+            // Dates
+            implementation(libs.kotlinx.datetime)
+
+            // DataStore (multiplatform)
+            implementation(libs.dataStore)
+            implementation(libs.dataStore.preferences)
         }
     }
 }

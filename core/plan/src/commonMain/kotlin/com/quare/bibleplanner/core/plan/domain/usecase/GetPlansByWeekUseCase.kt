@@ -53,13 +53,12 @@ class GetPlansByWeekUseCase(
         val isDayRead = updatedBooks.all { it.isRead }
         val totalVerses = calculateTotalVerses(day.passages, books)
         val readVerses = calculateReadVerses(day.passages, books)
-
         return day.copy(
             passages = updatedBooks,
             isRead = isDayRead,
             totalVerses = totalVerses,
             readVerses = readVerses,
-            readTimestamp = day.readTimestamp, // Preserve readTimestamp
+            readTimestamp = day.readTimestamp,
         )
     }
 
