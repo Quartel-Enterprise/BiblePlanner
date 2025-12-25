@@ -80,6 +80,9 @@ kotlin {
 
             // Koin
             implementation(libs.koinAndroid)
+
+            // Facebook SDK
+            implementation(libs.facebook.sdk.android)
         }
         commonMain.dependencies {
             // Feature
@@ -136,7 +139,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.quare.bibleplanner"
-            packageVersion = "1.2.2"
+            packageVersion = "1.3.0"
 
             macOS {
                 iconFile.set(project.file("../icons/bible_planner_logo.icns"))
