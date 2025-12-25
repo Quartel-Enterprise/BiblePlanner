@@ -58,6 +58,9 @@ kotlin {
             // Data Store
             implementation(libs.dataStore)
             implementation(libs.dataStore.preferences)
+
+            // Dates
+            implementation(libs.kotlinx.datetime)
         }
     }
 }
