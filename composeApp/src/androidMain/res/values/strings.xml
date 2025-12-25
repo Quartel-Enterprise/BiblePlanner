@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Bible Planner</string>
+    <string name="facebook_app_id" translatable="false">1353222729433375</string>
 </resources>
